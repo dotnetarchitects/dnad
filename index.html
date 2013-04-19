@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Carousel Template &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,286 +11,344 @@
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
-
-    /* GLOBAL STYLES
+        /* GLOBAL STYLES
     -------------------------------------------------- */
-    /* Padding below the footer and lighter body text */
+        /* Padding below the footer and lighter body text */
 
-    body {
-      padding-bottom: 40px;
-      color: #5a5a5a;
-    }
-
-
-
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
-
-    }
-
-    /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
-
-    /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
-    /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    /* Offset the responsive button for proper vertical alignment */
-    .navbar .btn-navbar {
-      margin-top: 10px;
-    }
+        body
+        {
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
 
 
 
-    /* CUSTOMIZE THE CAROUSEL
+        /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
-    /* Carousel base class */
-    .carousel {
-      margin-bottom: 60px;
-	  margin-top: 170px;
-    }
+        /* Special class on .container surrounding .navbar, used for positioning it into place. */
+        .navbar-wrapper
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            margin-top: 20px;
+            margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+        }
 
-    .carousel .container {
-      position: relative;
-      z-index: 9;
-    }
+            .navbar-wrapper .navbar
+            {
+            }
 
-    .carousel-control {
-      height: 80px;
-      margin-top: 0;
-      font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      background-color: transparent;
-      border: 0;
-      z-index: 10;
-    }
+        /* Remove border and change up box shadow for more contrast */
+        .navbar .navbar-inner
+        {
+            border: 0;
+            -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+            -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+            box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        }
 
-    .carousel .item {
-      height: 500px;
-    }
-    .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 500px;
-    }
+        /* Downsize the brand/project name a bit */
+        .navbar .brand
+        {
+            padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+            font-size: 16px;
+            font-weight: bold;
+            text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+        }
 
-    .carousel-caption {
-      background-color: transparent;
-      position: static;
-      max-width: 550px;
-      padding: 0 20px;
-      margin-top: 200px;
-	  float:right;
-    }
-    .carousel-caption h1,
-    .carousel-caption .lead {
-      margin: 0;
-      line-height: 1.25;
-      color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    }
-    .carousel-caption .btn {
-      margin-top: 10px;
-    }
+        /* Navbar links: increase padding for taller navbar */
+        .navbar .nav > li > a
+        {
+            padding: 15px 20px;
+        }
+
+        /* Offset the responsive button for proper vertical alignment */
+        .navbar .btn-navbar
+        {
+            margin-top: 10px;
+        }
 
 
 
-    /* MARKETING CONTENT
+        /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
 
-    /* Center align the text within the three columns below the carousel */
-    .marketing .span4 {
-      text-align: center;
-    }
-    .marketing h2 {
-      font-weight: normal;
-    }
-    .marketing .span4 p {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+        /* Carousel base class */
+        .carousel
+        {
+            margin-bottom: 60px;
+            margin-top: 170px;
+        }
+
+            .carousel .container
+            {
+                position: relative;
+                z-index: 9;
+            }
+
+        .carousel-control
+        {
+            height: 80px;
+            margin-top: 0;
+            font-size: 120px;
+            text-shadow: 0 1px 1px rgba(0,0,0,.4);
+            background-color: transparent;
+            border: 0;
+            z-index: 10;
+        }
+
+        .carousel .item
+        {
+            height: 500px;
+        }
+
+        .carousel img
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 500px;
+        }
+
+        .carousel-caption
+        {
+            background-color: transparent;
+            position: static;
+            max-width: 550px;
+            padding: 0 20px;
+            margin-top: 200px;
+            float: right;
+        }
+
+            .carousel-caption h1,
+            .carousel-caption .lead
+            {
+                margin: 0;
+                line-height: 1.25;
+                color: #fff;
+                text-shadow: 0 1px 1px rgba(0,0,0,.4);
+            }
+
+            .carousel-caption .btn
+            {
+                margin-top: 10px;
+            }
 
 
-    /* Featurettes
+
+        /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+        /* Center align the text within the three columns below the carousel */
+        .marketing .span4
+        {
+            text-align: center;
+        }
+
+        .marketing h2
+        {
+            font-weight: normal;
+        }
+
+        .marketing .span4 p
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+
+        /* Featurettes
     ------------------------- */
 
-    .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
-    }
-    .featurette {
-      
-      overflow: hidden; /* Vertically center images part 2: clear their floats. */
-    }
-    .featurette-image {
-      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-    }
+        .featurette-divider
+        {
+            margin: 80px 0; /* Space out the Bootstrap <hr> more */
+        }
 
-    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-    .featurette-image.pull-left {
-      margin-right: 40px;
-    }
-    .featurette-image.pull-right {
-      margin-left: 40px;
-    }
+        .featurette
+        {
+            overflow: hidden; /* Vertically center images part 2: clear their floats. */
+        }
 
-    /* Thin out the marketing headings */
-    .featurette-heading {
-      font-size: 50px;
-      font-weight: 300;
-      line-height: 1;
-      letter-spacing: -1px;
-    }
+        .featurette-image
+        {
+            margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+        }
+
+            /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+            .featurette-image.pull-left
+            {
+                margin-right: 40px;
+            }
+
+            .featurette-image.pull-right
+            {
+                margin-left: 40px;
+            }
+
+        /* Thin out the marketing headings */
+        .featurette-heading
+        {
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
 
 
 
-    /* RESPONSIVE CSS
+        /* RESPONSIVE CSS
     -------------------------------------------------- */
 
-    @media (max-width: 979px) {
+        @media (max-width: 979px)
+        {
 
-      .container.navbar-wrapper {
-        margin-bottom: 0;
-        width: auto;
-      }
-      .navbar-inner {
-        border-radius: 0;
-        margin: -20px 0;
-      }
+            .container.navbar-wrapper
+            {
+                margin-bottom: 0;
+                width: auto;
+            }
 
-      .carousel .item {
-        height: 500px;
-      }
-      .carousel img {
-        width: auto;
-        height: 500px;
-      }
+            .navbar-inner
+            {
+                border-radius: 0;
+                margin: -20px 0;
+            }
 
-      .featurette {
-        height: auto;
-        padding: 0;
-      }
-      .featurette-image.pull-left,
-      .featurette-image.pull-right {
-        display: block;
-        float: none;
-        max-width: 40%;
-        margin: 0 auto 20px;
-      }
-    }
+            .carousel .item
+            {
+                height: 500px;
+            }
+
+            .carousel img
+            {
+                width: auto;
+                height: 500px;
+            }
+
+            .featurette
+            {
+                height: auto;
+                padding: 0;
+            }
+
+            .featurette-image.pull-left,
+            .featurette-image.pull-right
+            {
+                display: block;
+                float: none;
+                max-width: 40%;
+                margin: 0 auto 20px;
+            }
+        }
 
 
-    @media (max-width: 767px) {
+        @media (max-width: 767px)
+        {
 
-      .navbar-inner {
-        margin: -20px;
-      }
+            .navbar-inner
+            {
+                margin: -20px;
+            }
 
-      .carousel {
-        margin-left: -20px;
-        margin-right: -20px;
-      }
-      .carousel .container {
+            .carousel
+            {
+                margin-left: -20px;
+                margin-right: -20px;
+            }
 
-      }
-      .carousel .item {
-        height: 300px;
-      }
-      .carousel img {
-        height: 300px;
-      }
-      .carousel-caption {
-        width: 65%;
-        padding: 0 70px;
-        margin-top: 100px;
-      }
-      .carousel-caption h1 {
-        font-size: 30px;
-      }
-      .carousel-caption .lead,
-      .carousel-caption .btn {
-        font-size: 18px;
-      }
+                .carousel .container
+                {
+                }
 
-      .marketing .span4 + .span4 {
-        margin-top: 40px;
-      }
+                .carousel .item
+                {
+                    height: 300px;
+                }
 
-      .featurette-heading {
-        font-size: 30px;
-      }
-      .featurette .lead {
-        font-size: 18px;
-        line-height: 1.5;
-      }
+                .carousel img
+                {
+                    height: 300px;
+                }
 
-    }
-	
-	#logo {
-		margin-bottom:10px;
-	}
+            .carousel-caption
+            {
+                width: 65%;
+                padding: 0 70px;
+                margin-top: 100px;
+            }
+
+                .carousel-caption h1
+                {
+                    font-size: 30px;
+                }
+
+                .carousel-caption .lead,
+                .carousel-caption .btn
+                {
+                    font-size: 18px;
+                }
+
+            .marketing .span4 + .span4
+            {
+                margin-top: 40px;
+            }
+
+            .featurette-heading
+            {
+                font-size: 30px;
+            }
+
+            .featurette .lead
+            {
+                font-size: 18px;
+                line-height: 1.5;
+            }
+        }
+
+        #logo
+        {
+            margin-bottom: 10px;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
 
 
 
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-		<img id="logo" src="./img/logo_donetarchitects_T.gif" width="350" alt=".NET Architects" />
-        <div class="navbar">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#"></a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#sobre">Sobre o DNAD13</a></li>
-                <li><a href="#inscricoes">Inscrições</a></li>
-                <li><a href="#programacao">Programação</a></li>
-				<li><a href="#palestrantes">Palestrantes</a></li>
-				<li><a href="#patrocinadores">Patrocinadores</a></li>
-				<li><a href="#organizacao">Organização</a></li>
-				<li><a href="#contato">Contato</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                <!-- <li class="dropdown">
+        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">
+            <img id="logo" src="./img/logo_donetarchitects_T.gif" width="350" alt=".NET Architects" />
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="#"></a>
+                    <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#sobre">Sobre o DNAD13</a></li>
+                            <li><a href="#inscricoes">Inscrições</a></li>
+                            <li><a href="#programacao">Programação</a></li>
+                            <li><a href="#palestrantes">Palestrantes</a></li>
+                            <li><a href="#patrocinadores">Patrocinadores</a></li>
+                            <li><a href="#organizacao">Organização</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                            <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                            <!-- <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
@@ -303,34 +360,39 @@
                     <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li> -->
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!-- /.navbar-inner -->
+            </div>
+            <!-- /.navbar -->
 
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.navbar-wrapper -->
 
 
 
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="./img/rj.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>05 e 06 de Julho de 2013</h1>
-              <p class="lead">O evento acontecerá no Rio de Janeiro, no hotel Windsor Guanabara.</p>
-              <a class="btn btn-large btn-primary" href="#">Inscreva-se agora!</a>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="./img/rj.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>05 e 06 de Julho de 2013</h1>
+                        <p class="lead">O evento acontecerá no Rio de Janeiro, no hotel Windsor Guanabara.</p>
+                        <a class="btn btn-large btn-primary" href="#">Inscreva-se agora!</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div><!-- /.carousel -->
 
 
@@ -341,144 +403,153 @@
 
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-		  <a target="_blank" href="https://maps.google.com/maps?hl=en&ie=UTF-8&q=hotel+windsor+guanabara&fb=1&hq=hotel+windsor+guanabara&cid=0,0,12863607507337796918&ei=YVlwUcLCHpKm9gSfkYHIAg&ved=0CNMBEPwSMAA">
-			<img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/hotel.png">
-		  </a>
-          <h2>Local</h2>
-          <p>Hotel Windsor Guanabara, Av. Presidente Vargas, 392 - Centro, Rio de Janeiro - RJ, 20071-000</p>
-          <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/star.png">
-          <h2>Patrocínio</h2>
-          <p>Seja patrocinador do DNAD.</p>
-          <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/elemarjr.jpeg">
-          <h2>Keynote</h2>
-          <p>Arquitetura de Software</p>
-          <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="span4">
+                <a target="_blank" href="https://maps.google.com/maps?hl=en&ie=UTF-8&q=hotel+windsor+guanabara&fb=1&hq=hotel+windsor+guanabara&cid=0,0,12863607507337796918&ei=YVlwUcLCHpKm9gSfkYHIAg&ved=0CNMBEPwSMAA">
+                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/hotel.png">
+                </a>
+                <h2>Local</h2>
+                <p>Hotel Windsor Guanabara, Av. Presidente Vargas, 392 - Centro, Rio de Janeiro - RJ, 20071-000</p>
+                <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
+            </div>
+            <!-- /.span4 -->
+            <div class="span4">
+                <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/star.png">
+                <h2>Patrocínio</h2>
+                <p>Seja patrocinador do DNAD.</p>
+                <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
+            </div>
+            <!-- /.span4 -->
+            <div class="span4">
+                <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/elemarjr.jpeg">
+                <h2>Keynote</h2>
+                <p>Arquitetura de Software</p>
+                <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
+            </div>
+            <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
+        <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-      <div class="featurette">
-        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
-        <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
+        <div class="featurette">
+            <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
+            <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
 
-      <hr class="featurette-divider">
-	  <a name="inscricoes"></a>
-      <div class="featurette">
-        <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png">
-        <h2 class="featurette-heading">Inscrições em breve.</h2>
-        <p class="lead">Participe do maior e melhor evento de arquitetura do Brasil, com a participação de profissionais renomados do mercado de tecnologia.</p>
-      </div>
+        <hr class="featurette-divider">
+        <a name="inscricoes"></a>
+        <div class="featurette">
+            <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png">
+            <h2 class="featurette-heading">Inscrições em breve.</h2>
+            <p class="lead">Participe do maior e melhor evento de arquitetura do Brasil, com a participação de profissionais renomados do mercado de tecnologia.</p>
+        </div>
 
-      <hr class="featurette-divider">
-	  <a name="programacao"></a>
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">Programação.</h2>
-        <p class="lead">Em breve. Submeta sua palestra no <a href="#">call4papers</a></p>
-		<table class="table table-striped">
-			<thead>
-				<tr>
-					<th>Nome</th>
-					<th>Palestra</th>
-					<th>Horário</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>TBA.</td>
-					<td>Keynote.</td>
-					<td>09:00</td>
-				</tr>
-				<tr>
-					<td>Elemar Jr</td>
-					<td>Arquitetura de software</td>
-					<td>10:00</td>
-				</tr>
-				<tr>
-					<td>Rodrigo Vidal</td>
-					<td>Programação Funcional</td>
-					<td>11:00</td>
-				</tr>
-				<tr>
-					<td>Giovanni Bassi</td>
-					<td>Arquitetura de software</td>
-					<td>13:30</td>
-				</tr>
-			</tbody>
-		</table>
-      </div>
+        <hr class="featurette-divider">
+        <a name="programacao"></a>
+        <div class="featurette">
+            <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
+            <h2 class="featurette-heading">Programação.</h2>
+            <p class="lead">Em breve. Submeta sua palestra no <a href="#">call4papers</a></p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Palestra</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TBA.</td>
+                        <td>Keynote.</td>
+                        <td>09:00</td>
+                    </tr>
+                    <tr>
+                        <td>Elemar Jr</td>
+                        <td>Arquitetura de software</td>
+                        <td>10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Rodrigo Vidal</td>
+                        <td>Programação Funcional</td>
+                        <td>11:00</td>
+                    </tr>
+                    <tr>
+                        <td>Giovanni Bassi</td>
+                        <td>Arquitetura de software</td>
+                        <td>13:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-      <hr class="featurette-divider">
-	  <a name="palestrantes"></a>
-	  <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">Palestrantes.</h2>
-        
-		<div>
-			<img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float:left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
-			<div>
-				<h3>Elemar Jr.</h2>
+        <hr class="featurette-divider">
+        <a name="palestrantes"></a>
+        <div class="featurette">
+            <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
+            <h2 class="featurette-heading">Palestrantes.</h2>
+
+            <div>
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
+                <div>
+                    <h3>
+                    Elemar Jr.</h2>
 				<p>Arquiteto, blogueiro, dancarino e enxadrista. Twitter: @elemarjr</p>
-			</div>
-		</div>
-		
-		<div style="clear: both">
-			<img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float:left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
-			<div>
-				<h3>Elemar Jr.</h2>
+                </div>
+            </div>
+
+            <div style="clear: both">
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
+                <div>
+                    <h3>
+                    Elemar Jr.</h2>
 				<p>Arquiteto, blogueiro, dancarino e enxadrista. Twitter: @elemarjr</p>
-			</div>
-		</div>
-      </div>
-	  
-	  <hr class="featurette-divider">
-	  <a name="patrocinadores"></a>
-	  <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">Patrocinadores</h2>
-        
-		<div>
-			<img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float:left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
-			<div>
-				<h3>Lambda3</h2>
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+        <a name="patrocinadores"></a>
+        <div class="featurette">
+            <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
+            <h2 class="featurette-heading">Patrocinadores</h2>
+
+            <div>
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
+                <div>
+                    <h3>
+                    Lambda3</h2>
 				<p></p>
-			</div>
-		</div>
-		
-		<div style="clear: both">
-			<img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float:left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
-			<div>
-				<h3>Elemar Jr.</h2>
+                </div>
+            </div>
+
+            <div style="clear: both">
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
+                <div>
+                    <h3>
+                    Elemar Jr.</h2>
 				<p>Arquiteto, blogueiro, dancarino e enxadrista. Twitter: @elemarjr</p>
-			</div>
-		</div>
-      </div>
+                </div>
+            </div>
+        </div>
 
-      <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
 
-    </div><!-- /.container -->
+    </div>
+    <!-- /.container -->
 
 
 
@@ -488,15 +559,15 @@
     <script src="./js/jquery.js"></script>
     <script src="./bootstrap/js/bootstrap.js"></script>
     <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
+        !function ($) {
+            $(function () {
+                // carousel demo
+                $('#myCarousel').carousel()
+            })
+        }(window.jQuery)
     </script>
     <script src="./js/holder.js"></script>
-  </body>
+</body>
 </html>
 
 
