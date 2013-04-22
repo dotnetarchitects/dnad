@@ -108,12 +108,9 @@ footer
 
 .carousel-caption
 {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.36);
     position: static;
-    max-width: 550px;
-    padding: 0 20px;
     margin-top: 200px;
-    float: right;
 }
 
 .carousel-caption h1,
