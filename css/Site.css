@@ -155,7 +155,7 @@ footer
 
 .featurette-divider
 {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 30px 0; /* Space out the Bootstrap <hr> more */
 }
 
 .featurette
@@ -302,4 +302,10 @@ footer
 #logo
 {
     margin-bottom: 10px;
+}
+
+.organizador-img {
+    width: 96px;
+    height: 96px;
+    float: left;
 }
