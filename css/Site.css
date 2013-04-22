@@ -303,3 +303,9 @@ footer
 {
     margin-bottom: 10px;
 }
+
+.organizador-img {
+    width: 96px;
+    height: 96px;
+    float: left;
+}
