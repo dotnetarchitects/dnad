@@ -75,7 +75,7 @@
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-            <div class="span4">
+            <div class="span4 offset1">
                 <a target="_blank" href="https://maps.google.com/maps?hl=en&ie=UTF-8&q=hotel+windsor+guanabara&fb=1&hq=hotel+windsor+guanabara&cid=0,0,12863607507337796918&ei=YVlwUcLCHpKm9gSfkYHIAg&ved=0CNMBEPwSMAA">
                     <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/hotel.png">
                 </a>
@@ -84,19 +84,19 @@
                 <p><a class="btn" href="#local">Mais Detalhes &raquo;</a></p>
             </div>
             <!-- /.span4 -->
-            <div class="span4">
+            <div class="span4 offset1">
                 <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/Star.PNG">
                 <h2>Patrocínio</h2>
                 <p>Seja patrocinador do DNAD.</p>
                 <p><a class="btn" href="#patrocinadores">Mais Detalhes &raquo;</a></p>
             </div>
             <!-- /.span4 -->
-            <div class="span4">
+            <!--<div class="span4">
                 <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/elemarjr.jpeg">
                 <h2>Keynote</h2>
                 <p>Arquitetura de Software</p>
                 <p><a class="btn" href="#palestrantes">Mais Detalhes &raquo;</a></p>
-            </div>
+            </div>-->
             <!-- /.span4 -->
         </div>
         <!-- /.row -->
@@ -140,7 +140,7 @@
         <a name="programacao"></a>
         <div class="featurette">
             <h2 class="featurette-heading">Programação.</h2>
-            <p class="lead">Em breve. Submeta sua palestra no <a href="#">call4papers</a></p>
+            <p class="lead">Em breve. Submeta sua palestra no <a target="_blank" href="https://docs.google.com/forms/d/1IN3cbm46WVSEQjEx0BXiVXwRkb0gQufbG8xQqR--Ljc/viewform">call4papers</a></p>
             <h3>Sexta - 05/07/2013</h3>
             <table class="table table-striped">
                 <thead>
@@ -294,7 +294,7 @@
 
             <h3>Estações de Metrô</h3>
             <p>
-                A estação de Metrô mais próxima é a Uruguaiana. Nesta estação é possível ir para a Zona Sul do Rio de Janeiro, e em menos de 15 minutos estar nas praias mais famosas, como de Copacabana, Ipanema.
+                A estação de Metrô mais próxima é a Uruguaiana. Nesta estação é possível ir para a Zona Sul do Rio de Janeiro, e em menos de 15 minutos estar nas praias mais famosas, como as de Copacabana, Ipanema.
             </p>
             <p>Para mais informações sobre o Metrô Rio, acesse o <a href="http://www.metrorio.com.br/">site</a>.</p>
         </div>
@@ -373,7 +373,7 @@
         <!-- FOOTER -->
         <footer>
             <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <p>&copy; 2013 .NET Architects. &middot; <a href="http://www.dotnetarchitects.net/" target="_blank">Site</a></p>
         </footer>
 
     </div>
@@ -394,7 +394,20 @@
             })
         }(window.jQuery)
     </script>
-    <script src="./js/holder.js"></script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-40352216-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
 </body>
 </html>
 
