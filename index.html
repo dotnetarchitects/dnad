@@ -10,322 +10,10 @@
     <!-- Le styles -->
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <style>
-        /* GLOBAL STYLES
-    -------------------------------------------------- */
-        /* Padding below the footer and lighter body text */
-
-        body
-        {
-            padding-bottom: 40px;
-            color: #5a5a5a;
-        }
-
-		footer
-		{
-			padding-top:70px;
-		}
-
-
-        /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-        /* Special class on .container surrounding .navbar, used for positioning it into place. */
-        .navbar-wrapper
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 10;
-            margin-top: 20px;
-            margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-        }
-
-            .navbar-wrapper .navbar
-            {
-            }
-
-        /* Remove border and change up box shadow for more contrast */
-        .navbar .navbar-inner
-        {
-            border: 0;
-            -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-            -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-            box-shadow: 0 2px 10px rgba(0,0,0,.25);
-        }
-
-        /* Downsize the brand/project name a bit */
-        .navbar .brand
-        {
-            padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-            font-size: 16px;
-            font-weight: bold;
-            text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-        }
-
-        /* Navbar links: increase padding for taller navbar */
-        .navbar .nav > li > a
-        {
-            padding: 15px 20px;
-        }
-
-        /* Offset the responsive button for proper vertical alignment */
-        .navbar .btn-navbar
-        {
-            margin-top: 10px;
-        }
-
-
-
-        /* CUSTOMIZE THE CAROUSEL
-    -------------------------------------------------- */
-
-        /* Carousel base class */
-        .carousel
-        {
-            margin-bottom: 60px;
-            margin-top: 170px;
-        }
-
-            .carousel .container
-            {
-                position: relative;
-                z-index: 9;
-            }
-
-        .carousel-control
-        {
-            height: 80px;
-            margin-top: 0;
-            font-size: 120px;
-            text-shadow: 0 1px 1px rgba(0,0,0,.4);
-            background-color: transparent;
-            border: 0;
-            z-index: 10;
-        }
-
-        .carousel .item
-        {
-            height: 500px;
-        }
-
-        .carousel img
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            height: 500px;
-        }
-
-        .carousel-caption
-        {
-            background-color: transparent;
-            position: static;
-            max-width: 550px;
-            padding: 0 20px;
-            margin-top: 200px;
-            float: right;
-        }
-
-            .carousel-caption h1,
-            .carousel-caption .lead
-            {
-                margin: 0;
-                line-height: 1.25;
-                color: #fff;
-                text-shadow: 0 1px 1px rgba(0,0,0,.4);
-            }
-
-            .carousel-caption .btn
-            {
-                margin-top: 10px;
-            }
-
-
-
-        /* MARKETING CONTENT
-    -------------------------------------------------- */
-
-        /* Center align the text within the three columns below the carousel */
-        .marketing .span4
-        {
-            text-align: center;
-        }
-
-        .marketing h2
-        {
-            font-weight: normal;
-        }
-
-        .marketing .span4 p
-        {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-
-
-        /* Featurettes
-    ------------------------- */
-
-        .featurette-divider
-        {
-            margin: 80px 0; /* Space out the Bootstrap <hr> more */
-        }
-
-        .featurette
-        {
-            overflow: hidden; /* Vertically center images part 2: clear their floats. */
-        }
-
-        .featurette-image
-        {
-            margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-        }
-
-            /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-            .featurette-image.pull-left
-            {
-                margin-right: 40px;
-            }
-
-            .featurette-image.pull-right
-            {
-                margin-left: 40px;
-            }
-
-        /* Thin out the marketing headings */
-        .featurette-heading
-        {
-            font-size: 50px;
-            font-weight: 300;
-            line-height: 1;
-            letter-spacing: -1px;
-        }
-
-
-
-        /* RESPONSIVE CSS
-    -------------------------------------------------- */
-
-        @media (max-width: 979px)
-        {
-
-            .container.navbar-wrapper
-            {
-                margin-bottom: 0;
-                width: auto;
-            }
-
-            .navbar-inner
-            {
-                border-radius: 0;
-                margin: -20px 0;
-            }
-
-            .carousel .item
-            {
-                height: 500px;
-            }
-
-            .carousel img
-            {
-                width: auto;
-                height: 500px;
-            }
-
-            .featurette
-            {
-                height: auto;
-                padding: 0;
-            }
-
-            .featurette-image.pull-left,
-            .featurette-image.pull-right
-            {
-                display: block;
-                float: none;
-                max-width: 40%;
-                margin: 0 auto 20px;
-            }
-        }
-
-
-        @media (max-width: 767px)
-        {
-
-            .navbar-inner
-            {
-                margin: -20px;
-            }
-
-            .carousel
-            {
-                margin-left: -20px;
-                margin-right: -20px;
-            }
-
-                .carousel .container
-                {
-                }
-
-                .carousel .item
-                {
-                    height: 300px;
-                }
-
-                .carousel img
-                {
-                    height: 300px;
-                }
-
-            .carousel-caption
-            {
-                width: 65%;
-                padding: 0 70px;
-                margin-top: 100px;
-            }
-
-                .carousel-caption h1
-                {
-                    font-size: 30px;
-                }
-
-                .carousel-caption .lead,
-                .carousel-caption .btn
-                {
-                    font-size: 18px;
-                }
-
-            .marketing .span4 + .span4
-            {
-                margin-top: 40px;
-            }
-
-            .featurette-heading
-            {
-                font-size: 30px;
-            }
-
-            .featurette .lead
-            {
-                font-size: 18px;
-                line-height: 1.5;
-            }
-        }
-
-        #logo
-        {
-            margin-bottom: 10px;
-        }
-    </style>
+    <link href="./css/Site.css" rel="stylesheet">
 </head>
 
 <body>
-
-
-
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
@@ -395,9 +83,6 @@
             </div>
         </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
 
 
 
@@ -419,10 +104,10 @@
             </div>
             <!-- /.span4 -->
             <div class="span4">
-                <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/star.png">
+                <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/Star.PNG">
                 <h2>Patrocínio</h2>
                 <p>Seja patrocinador do DNAD.</p>
-                <p><a class="btn" href="#">Mais Detalhes &raquo;</a></p>
+                <p><a class="btn" href="#patrocinadores">Mais Detalhes &raquo;</a></p>
             </div>
             <!-- /.span4 -->
             <div class="span4">
@@ -439,7 +124,7 @@
         <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider">
-
+        <a name="sobre"></a>
         <div class="featurette">
             <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
             <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
@@ -449,7 +134,6 @@
         <hr class="featurette-divider">
         <a name="inscricoes"></a>
         <div class="featurette">
-            <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png">
             <h2 class="featurette-heading">Inscrições em breve.</h2>
             <p class="lead">Participe do maior e melhor evento de arquitetura do Brasil, com a participação de profissionais renomados do mercado de tecnologia.</p>
         </div>
@@ -457,7 +141,6 @@
         <hr class="featurette-divider">
         <a name="programacao"></a>
         <div class="featurette">
-            <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
             <h2 class="featurette-heading">Programação.</h2>
             <p class="lead">Em breve. Submeta sua palestra no <a href="#">call4papers</a></p>
             <table class="table table-striped">
@@ -496,14 +179,13 @@
         <hr class="featurette-divider">
         <a name="palestrantes"></a>
         <div class="featurette">
-            <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
             <h2 class="featurette-heading">Palestrantes.</h2>
 
             <div>
                 <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
                 <div>
                     <h3>
-                    Elemar Jr.</h2>
+                    Elemar Jr.</h3>
 				<p>Arquiteto, blogueiro, dancarino e enxadrista. Twitter: @elemarjr</p>
                 </div>
             </div>
@@ -512,7 +194,7 @@
                 <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="./img/elemarjr.jpeg" class="img-polaroid" />
                 <div>
                     <h3>
-                    Elemar Jr.</h2>
+                    Elemar Jr.</h3>
 				    <p>Arquiteto, blogueiro, dancarino e enxadrista. Twitter: @elemarjr</p>
 			    </div>
 		    </div>
@@ -521,11 +203,12 @@
 	  <hr class="featurette-divider">
 	  <a name="patrocinadores"></a>
 	  <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
         <h2 class="featurette-heading">Patrocinadores</h2>
         
 		<div>
 			<img src="./img/patrocinadores/patrocinadores.png" />
+
+            <p class="lead">Interessado em patrocinar o DNAD13? Clique <a href="#patrocinadores">aqui</a> e entre em contato com a organização do evento para saber mais detalhes.</p>
 		</div>	
 
       </div>
@@ -533,7 +216,6 @@
         <hr class="featurette-divider">
         <a name="local"></a>
         <div class="featurette">
-            <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
             <h2 class="featurette-heading">Local</h2>
 
             <div>
@@ -556,6 +238,71 @@
             </p>
             <p>Para mais informações sobre o Metrô Rio, acesse o <a href="http://www.metrorio.com.br/">site</a>.</p>
         </div>
+
+        <hr class="featurette-divider">
+        <a name="organizacao"></a>
+        <div class="featurette">
+            <h2 class="featurette-heading">Organização.</h2>
+
+            <div>
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="http://1.gravatar.com/avatar/bfd8bb90fdf6e83c2f81b019fc74cc4f" class="img-polaroid" />
+                <div>
+                    <h3>
+                        <a href="http://twitter.com/rodrigovidal">Rodrigo Vidal</a></h3>
+                        <p>Arquiteto, blogueiro, dancarino e enxadrista.</p>
+                </div>
+            </div>
+
+            <div style="clear: both">
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="http://1.gravatar.com/avatar/22cac40ebe7d9e1e7854ea9808debd7b" class="img-polaroid" />
+                <div>
+                    <h3>
+                        <a href="http://twitter.com/breno_ferreira">Breno Ferreira</a></h3>
+                        <p>Arquiteto, blogueiro, dancarino e enxadrista.</p>
+                </div>
+            </div>
+
+            <div style="clear: both">
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="http://0.gravatar.com/avatar/c3b44dddf0f48534c0d7c6113c977d01" class="img-polaroid" />
+                <div>
+                    <h3>
+                        <a href="http://twitter.com/vcavalcante">Victor Cavalcante</a></h3>
+                    <p>Arquiteto, blogueiro, dancarino e enxadrista. </p>
+                </div>
+            </div>
+
+            <div style="clear: both">
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="http://2.gravatar.com/avatar/a494c4460f4a55fffac5cd563c232cb9" class="img-polaroid" />
+                <div>
+                    <h3>
+                        <a href="http://twitter.com/giovannibassi">Giovanni Bassi</a></h3>
+                    <p>Arquiteto, blogueiro, dancarino e enxadrista.</p>
+                </div>
+            </div>
+
+            <div style="clear: both">
+                <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left;" src="http://2.gravatar.com/avatar/77cc77ccdaf329705ce14a9d3ff1e8a8" class="img-polaroid" />
+                <div>
+                    <h3>
+                        <a href="http://twitter.com/mauricioaniche">Maurício Aniche</a></h3>
+                    <p>Arquiteto, blogueiro, dancarino e enxadrista.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+        <a name="contato"></a>
+        <div class="featurette">
+            <h2 class="featurette-heading">Contato</h2>
+            <div >
+                <p>Entre em contato com o DNAD através dos e-mails abaixo:</p>
+                <p>Para falar com a organização: <a href="mailto:dnad@dotnetarchitects.ne?Subject=DNAD13">dnad@dotnetarchitects.net</a></p>
+                <p>Para falar com o financeiro (dúvidas ou problemas na inscrição): <a href="mailto:financeiro@dotnetarchitects.net">financeiro@dotnetarchitects.net</a></p>
+                <p>Para falar sobre patrocínio ou apoio: <a href="mailto:patrocinio@dotnetarchitects.net?Subject=Patrocínio DNAD13">patrocinio@dotnetarchitects.net</a></p>
+            </div>
+
+        </div>
+
         <!-- /END THE FEATURETTES -->
 
         <!-- FOOTER -->
