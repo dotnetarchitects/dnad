@@ -14,13 +14,44 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
         <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
         <div class="container">
+            <div class="social">
+
+                <!--facebook like btn-->
+                <div class="fb-like" data-href="http://www.facebook.com/DotNETArchitects" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+                <!--twitter btn-->
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="dotnetarchitects">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="medium"></div>
+
+                <!-- Place this tag after the last +1 button tag. -->
+                <script type="text/javascript">
+                    (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                    })();
+                </script>
+
+                <!-- AddThis Button END -->
+            </div>
             <img id="logo" src="./img/logo.png" width="450" alt=".NET Architects" />
-            <div class="navbar">
+            <nav class="navbar">
                 <div class="navbar-inner">
                     <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
                     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,7 +74,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
 
@@ -56,7 +87,7 @@
                 <img src="./img/rj.jpg" alt="">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>05 e 06 de Julho de 2013</h1>
+                        <h1>02 e 03 de Agosto de 2013</h1>
                         <p class="lead">O evento acontecerá no Rio de Janeiro, no hotel Windsor Guanabara.</p>
                         <a class="btn btn-large btn-primary" href="#">Inscreva-se agora!</a>
                     </div>
@@ -106,7 +137,7 @@
 
         <hr class="featurette-divider">
         <a name="sobre"></a>
-        <div class="featurette">
+        <section class="featurette">
             <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
             <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
             <p>O .Net Architects Days é uma conferência nacional sem fins lucrativos focada em arquitetura de software. O objetivo do evento foi trazer para o mercado uma visão avançada sobre desenvolvimento de software utilizando padrões, práticas, técnicas e ferramentas que permitem o desenvolvimento sustentável de um aplicativo. Contamos com assuntos técnicos, conceituais, práticos e acadêmicos.</p>
@@ -126,19 +157,19 @@
             </ul>
 
             <h3>Fique ligado</h3>
-            <p>Acompanhe as últimas novidades do evento pelo Twitter seguindo a hashtag <a href="http://twitter.com/search?q=%23dnad">#DNAD</a>, seguindo <a href="https://twitter.com/netarchitects">@netarchitects</a> para obter mais informações sobre o evento.</p>
-        </div>
+            <p>Acompanhe as últimas novidades do evento pelo Twitter seguindo a hashtag <a href="http://twitter.com/search?q=%23dnad">#DNAD</a>, seguindo <a href="http://twitter.com/netarchitects">@netarchitects</a> para obter mais informações sobre o evento.</p>
+        </section>
 
         <hr class="featurette-divider">
         <a name="inscricoes"></a>
-        <div class="featurette">
+        <section class="featurette">
             <h2 class="featurette-heading">Inscrições em breve.</h2>
             <p class="lead">Participe do maior e melhor evento de arquitetura do Brasil, com a participação de profissionais renomados do mercado de tecnologia.</p>
-        </div>
+        </section>
 
         <hr class="featurette-divider">
         <a name="programacao"></a>
-        <div class="featurette">
+        <section class="featurette">
             <h2 class="featurette-heading">Programação.</h2>
             <p class="lead">Em breve. Submeta sua palestra no <a target="_blank" href="https://docs.google.com/forms/d/1IN3cbm46WVSEQjEx0BXiVXwRkb0gQufbG8xQqR--Ljc/viewform">call4papers</a></p>
             <h3>Sexta - 05/07/2013</h3>
@@ -236,11 +267,11 @@
                 </tr>
                 </tbody>
             </table>
-        </div>
+        </section>
 
         <hr class="featurette-divider">
         <a name="palestrantes"></a>
-        <div class="featurette">
+        <section class="featurette">
             <h2 class="featurette-heading">Palestrantes.</h2>
 
             <div>
@@ -260,22 +291,22 @@
 				    <p>Arquiteto, blogueiro, dancarino e enxadrista. Twitter: @elemarjr</p>
 			    </div>
 		    </div>-->
-      </div>
+      </section>
 	  
 	  <hr class="featurette-divider">
 	  <a name="patrocinadores"></a>
-	  <div class="featurette">
+	  <section class="featurette">
         <h2 class="featurette-heading">Patrocinadores</h2>
         
 		<div>
             <p class="lead">Interessado em patrocinar o DNAD13? Clique <a href="#patrocinadores">aqui</a> e entre em contato com a organização do evento para saber mais detalhes.</p>
 		</div>	
 
-      </div>
+      </section>
 
         <hr class="featurette-divider">
         <a name="local"></a>
-        <div class="featurette">
+        <section class="featurette">
             <h2 class="featurette-heading">Local</h2>
 
             <div>
@@ -297,11 +328,11 @@
                 A estação de Metrô mais próxima é a Uruguaiana. Nesta estação é possível ir para a Zona Sul do Rio de Janeiro, e em menos de 15 minutos estar nas praias mais famosas, como as de Copacabana, Ipanema.
             </p>
             <p>Para mais informações sobre o Metrô Rio, acesse o <a href="http://www.metrorio.com.br/">site</a>.</p>
-        </div>
+        </section>
 
         <hr class="featurette-divider">
         <a name="organizacao"></a>
-        <div class="featurette">
+        <section class="featurette">
             <h2 class="featurette-heading">Organização</h2>
 
             <div>
@@ -353,11 +384,11 @@
                 </div>
             </div>
             <hr />
-        </div>
+        </section>
 
         <hr class="featurette-divider">
         <a name="contato"></a>
-        <div class="featurette">
+        <section class="featurette">
             <h2 class="featurette-heading">Contato</h2>
             <div >
                 <p>Entre em contato com o DNAD através dos e-mails abaixo:</p>
@@ -366,7 +397,7 @@
                 <p>Para falar sobre patrocínio ou apoio: <a href="mailto:patrocinio@dotnetarchitects.net?Subject=Patrocínio DNAD13">patrocinio@dotnetarchitects.net</a></p>
             </div>
 
-        </div>
+        </section>
 
         <!-- /END THE FEATURETTES -->
 

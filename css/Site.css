@@ -309,3 +309,8 @@ footer
     height: 96px;
     float: left;
 }
+
+.social{
+    float:right;
+    margin-top: 30px;
+}
