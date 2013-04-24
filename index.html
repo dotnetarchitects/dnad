@@ -14,11 +14,42 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
         <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
         <div class="container">
+            <div class="social">
+
+                <!--facebook like btn-->
+                <div class="fb-like" data-href="http://dnad.azurewebsites.net" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+                <!--twitter btn-->
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="dotnetarchitects">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="medium"></div>
+
+                <!-- Place this tag after the last +1 button tag. -->
+                <script type="text/javascript">
+                    (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                    })();
+                </script>
+
+                <!-- AddThis Button END -->
+            </div>
             <img id="logo" src="./img/logo.png" width="450" alt=".NET Architects" />
             <nav class="navbar">
                 <div class="navbar-inner">
