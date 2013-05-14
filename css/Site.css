@@ -304,6 +304,12 @@ footer
     margin-bottom: 10px;
 }
 
+#submeta
+{
+	color:red;
+	font-weight:bold;
+}
+
 .organizador-img {
     width: 96px;
     height: 96px;
@@ -314,3 +320,5 @@ footer
     float:right;
     margin-top: 30px;
 }
+
+
