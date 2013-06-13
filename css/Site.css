@@ -321,4 +321,7 @@ footer
     margin-top: 30px;
 }
 
+.table thead tr th:first-child{
+    width:280px;
+}
 
