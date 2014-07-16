@@ -1,106 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>.NET Architects Days 2014 - DNAD14</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=".NET Architects Days 2014 - DNAD 2014. O maior evento de arquitetura do Brasil">
-    <meta name="author" content="DNAD">
-    <link rel="shortcut icon" href="/img/favicon.ico"/>
+  <meta charset="utf-8">
+  <title>.NET Architects Days 2014 - DNAD14</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=".NET Architects Days 2014 - DNAD 2014. O maior evento de arquitetura do Brasil">
+  <meta name="author" content="DNAD">
+  <link rel="shortcut icon" href="/img/favicon.ico"/>
 
-    <!-- Facebook metatags -->
-    <meta property="og:url"   content="http://dnad.azurewebsites.net/" />
-    <meta property="og:title" content="DNAD 2014 - Arquitetura de Software" />
-    <meta property="og:description" content="DNAD 2014. O maior evento de arquitetura de software do Brasil" />
-    <meta property="og:image" content="http://dnad.azurewebsites.net/img/facebook-logo.png" />
+  <!-- Facebook metatags -->
+  <meta property="og:url"   content="http://dnad.azurewebsites.net/" />
+  <meta property="og:title" content="DNAD 2014 - Arquitetura de Software" />
+  <meta property="og:description" content="DNAD 2014. O maior evento de arquitetura de software do Brasil" />
+  <meta property="og:image" content="http://dnad.azurewebsites.net/img/facebook-logo.png" />
 
-    <!-- Le styles -->
-    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="./css/Site.css" rel="stylesheet">
+  <!-- Le styles -->
+  <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="./css/Site.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
-        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-        <div class="container">
-            <div class="social">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+        <div class="social">
 
-                <!--facebook like btn-->
-                <div class="fb-like" data-href="http://dnad.azurewebsites.net/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+          <!--facebook like btn-->
+          <div class="fb-like" data-href="http://dnad.azurewebsites.net/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
 
-                <!--twitter btn-->
-                <a href="https://twitter.com/share" class="twitter-share-button" data-via="netarchitects" data-hashtags="DNAD">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <!--twitter btn-->
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="netarchitects" data-hashtags="DNAD">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-                <!-- Place this tag where you want the +1 button to render. -->
-                <div class="g-plusone" data-size="medium"></div>
+          <!-- Place this tag where you want the +1 button to render. -->
+          <div class="g-plusone" data-size="medium"></div>
 
-                <!-- Place this tag after the last +1 button tag. -->
-                <script type="text/javascript">
-                    (function() {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                        po.src = 'https://apis.google.com/js/plusone.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                    })();
-                </script>
+          <!-- Place this tag after the last +1 button tag. -->
+          <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+          </script>
 
-                <!-- AddThis Button END -->
-            </div>
-            <img id="logo" src="./img/logo2.png" width="450" alt=".NET Architects" />
-            <nav class="navbar">
-                <div class="navbar-inner">
-                    <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="brand" href="#"></a>
-                    <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li><a href="#sobre">Sobre o DNAD14</a></li>
-                            <li><a href="#inscricoes">Inscrições</a></li>
-                            <li><a href="#programacao">Programação</a></li>
-                            <li><a href="#palestrantes">Palestrantes</a></li>
-                            <li><a href="#patrocinadores">Patrocinadores</a></li>
-                            <li><a href="#local">Local</a></li>
-                            <li><a href="#organizacao">Organização</a></li>
-                            <li><a href="#contato">Contato</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+          <!-- AddThis Button END -->
         </div>
+        <img id="logo" src="./img/logo2.png" width="450" alt=".NET Architects" />
+        <nav class="navbar">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#"></a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="#sobre">Sobre o DNAD13</a></li>
+                <li><a href="#inscricoes">Inscrições</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#patrocinadores">Patrocinadores</a></li>
+                <li><a href="#local">Local</a></li>
+                <li><a href="#organizacao">Organização</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
 
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel">
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="./img/sp.jpg" alt="" style="overflow: hidden; height: auto;">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>12 e 13 de Setembro de 2014</h1>
-                        <p class="lead">O evento acontecerá em São Paulo</p>
-                        <a class="btn btn-large btn-primary" href="#inscricoes">Inscrições ABERTAS!</a>
-                    </div>
-                </div>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./img/sp.jpg" alt="" style="overflow: hidden; height: auto;">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>12 e 13 de Setembro de 2014</h1>
+              <p class="lead">O evento acontecerá em São Paulo</p>
+              <a class="btn btn-large btn-primary" href="#inscricoes">Inscrições em breve!</a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
 
@@ -110,40 +110,39 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+      <!-- START THE FEATURETTES -->
 
-        <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <a name="sobre"></a>
+      <section class="featurette">
+        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
+        <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
+        <p>O .Net Architects Days é uma conferência nacional sem fins lucrativos focada em arquitetura de software. O objetivo do evento foi trazer para o mercado uma visão avançada sobre desenvolvimento de software utilizando padrões, práticas, técnicas e ferramentas que permitem o desenvolvimento sustentável de um aplicativo. Contamos com assuntos técnicos, conceituais, práticos e acadêmicos.</p>
 
-        <hr class="featurette-divider">
-        <a name="sobre"></a>
-        <section class="featurette">
-            <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
-            <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
-            <p>O .Net Architects Days é uma conferência nacional sem fins lucrativos focada em arquitetura de software. O objetivo do evento foi trazer para o mercado uma visão avançada sobre desenvolvimento de software utilizando padrões, práticas, técnicas e ferramentas que permitem o desenvolvimento sustentável de um aplicativo. Contamos com assuntos técnicos, conceituais, práticos e acadêmicos.</p>
+        <h3>Público alvo</h3>
+        <p>Este é um evento não destinado apenas à comunidade técnica de desenvolvedores e arquitetos. Entre os papéis interessados no evento encontram-se:</p>
+        <ul class="unstyled">
+          <li>Arquitetos de Software</li>
+          <li>Desenvolvedores de software</li>
+          <li>Testadores</li>
+          <li>Analistas de Sistemas</li>
+          <li>Analistas de Negócio</li>
+          <li>Empresários de TI</li>
+          <li>Gerentes de desenvolvimento</li>
+          <li>Professores e pesquisadores de TI</li>
+          <li>Demais interessados na melhoria da qualidade e produtividade em software</li>
+        </ul>
 
-            <h3>Público alvo</h3>
-            <p>Este é um evento não destinado apenas à comunidade técnica de desenvolvedores e arquitetos. Entre os papéis interessados no evento encontram-se:</p>
-            <ul class="unstyled">
-                <li>Arquitetos de Software</li>
-                <li>Desenvolvedores de software</li>
-                <li>Testadores</li>
-                <li>Analistas de Sistemas</li>
-                <li>Analistas de Negócio</li>
-                <li>Empresários de TI</li>
-                <li>Gerentes de desenvolvimento</li>
-                <li>Professores e pesquisadores de TI</li>
-                <li>Demais interessados na melhoria da qualidade e produtividade em software</li>
-            </ul>
-
-            <h3>Fique ligado</h3>
-            <p>Acompanhe as últimas novidades do evento pelo Twitter seguindo a hashtag <a href="http://twitter.com/search?q=%23dnad14">#DNAD14</a>, seguindo <a href="http://twitter.com/netarchitects">@netarchitects</a> para obter mais informações sobre o evento.</p>
-        </section>
+        <h3>Fique ligado</h3>
+        <p>Acompanhe as últimas novidades do evento pelo Twitter seguindo a hashtag <a href="http://twitter.com/search?q=%23dnad14">#DNAD14</a>, seguindo <a href="http://twitter.com/netarchitects">@netarchitects</a> para obter mais informações sobre o evento.</p>
+      </section>
 
         <hr class="featurette-divider">
         <a name="inscricoes"></a>
         <section class="featurette">
             <h2 class="featurette-heading">Inscrições</h2>
             <p>
-	    	Vamos liberar a compra por lotes, se pudermos fechar o evento no primeiro seria muito melhor. Por isso não perca tempo e inscreva-se!	
+	    	Vamos liberar a compra por lotes, se pudermos fechar o evento no primeiro seria muito melhor. Por isso não perca tempo e inscreva-se!
 	    </p>
 
 		<style type="text/css">
@@ -152,7 +151,7 @@
 		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:11px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 		.tg .tg-y70x{font-weight:bold;background-color:#9b9b9b;color:#000000}
 		</style>
-		
+
 		<table class="tg">
 		  <tr>
 			<th class="tg-y70x">Início</th>
@@ -183,138 +182,308 @@
 			<td class="tg-031e">25/ago/14</td>
 			<td class="tg-031e">09/set/14</td>
 			<td class="tg-031e">R$ 260,00</td>
-		  </tr> 
+		  </tr>
 		</table>
 		<br>
 	    <p>
 	    	<a class="button-small-text" href="https://www.sympla.com.br/dnad14---net-architects-days-2014__20304" target="_blank"><img src="http://www.sympla.com.br/images/btn-buy-tickets.png" alt="" style="" /></a>
 	    </p>
-		
+
 		</section>
 
       <hr class="featurette-divider">
       <a name="palestrantes"></a>
       <section class="featurette">
-            <h2 class="featurette-heading">Palestrantes</h2>
-            <p>Em breve.</p>
+        <h2 class="featurette-heading">Palestrantes</h2>
+
+        <div>
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px;" src="img/palestrantes/roberta.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/rla4" target="_blank">Roberta Arcoverde</a></h3>
+            <p>
+              Tenho um pé na academia e outro na indústria, então vou resumir meus dois pés rapidamente: como pesquisadora, sou Mestre em Informática pela PUC-Rio, e Cientista da Computação pela UFPE, com ênfase nas áreas de Engenharia de Software e Linguagens de Programação. Na indústria, trabalho há 6 anos como desenvolvedora de software, com foco em aplicações Web e tecnologias Microsoft, e desde março de 2014 integro o time de desenvolvimento da Stack Exchange.
+            </p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/carlucci.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/andrecarlucci" target="_blank">André Carlucci</a></h3>
+            <p>André Carlucci é co-fundador, Chief Happiness Officer da Way2 Technology, Microsoft Most Valuable Professional e organizador do DotNetFloripa. Bacharel em Ciências da Computação pela UFSC, tem 12 anos de experiência trabalhando em grandes projetos de TI no Brasil e na Europa. Atualmente está focado em arquitetura de software, tecnologias Microsoft e projetos open-source, sendo um apaixonado por metodologias ágeis.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/konrad.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/konr" target="_blank">Konrad Scorciapino</a></h3>
+            <p>Engenheiro, apaixonado por programmação funccional.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/jorge.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/jorgemaia" target="_blank">Jorge Maia</a></h3>
+            <p>"Cientista da Computação, com mais de 20 anos desenvolvendo software, fundador dos CrazyTechGuys,Consultor de ALM, Agile e desenvolvimento software. MCSD, MCT e CSM. Entusiasta de Internet of Things e Wearable devices, uma pessoa da comunidade de tecnologia que gosta de colaborar com a rede."</p>
+          </div>
+        </div>
       </section>
 
-        <hr class="featurette-divider">
-        <a name="submissao"></a>
-        <section class="featurette">
-            <h2 class="featurette-heading">Submissão de palestras</h2>
-            <p>Quer palestrar no DNAD14? Submeta sua proposta de palestra <a href="https://docs.google.com/forms/d/1t1vs-Olju6noyNPqXORuREE_9jIt-0YXM5m8W0ROmws/viewform">aqui</a></p>
-        </section>
+      <hr class="featurette-divider">
+      <a name="submissao"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Submissão de palestras</h2>
+        <p>Quer palestrar no DNAD14? Submeta sua proposta de palestra <a href="https://docs.google.com/forms/d/1t1vs-Olju6noyNPqXORuREE_9jIt-0YXM5m8W0ROmws/viewform">aqui</a></p>
+      </section>
+
+      <hr class="featurette-divider">
+      <a name="programacao"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Programação</h2>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Palestrante</th>
+              <th>Palestra</th>
+              <th>Horário</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>Credenciamento</td>
+              <td>08:30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Abertura</td>
+              <td>09:45</td>
+            </tr>
+            <tr>
+              <td>Roberta Arcoverde</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="O Stack Overflow Careers é um produto que objetiva unir profissionais de tecnologia diferenciados a empresas também diferenciadas. Contando com um banco de 3 milhões de potenciais usuários, nosso grande desafio foi montar um mecanismo de busca capaz de minerá-los com eficiência (respostas rápidas!) e flexibilidade (buscas customizadas!). Indexação (elasticsearch), caching (redis) e linguagens específicas de domínio (CQL - homemade with ♥) nortearam a arquitetura deste mecanismo, que pretendo detalhar nesta palestra.">Extração de Informação no Stack Overflow Careers</a></td>
+              <td>10:00</td>
+            </tr>
+            <tr>
+              <td>Konrad Scorciapino</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Visão geral de como é divertido mexer e melhorar um sistema escrito em Clojure. Entre alguns assuntos, será abordado temas como: Lisps e programmação funcional; Datomic: programmação logica, immutabilidade e programabilidade; Como desenvolvemos (emacs, REPL, lighttable); Como testamos, como rodamos; Como explorar o clojure">(Clojure ♥)</a></td>
+              <td>11:00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Almoço</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td>André Carlucci</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="De nada adianta um framework ou biblioteca ser super funcional e poderoso se este não é simples e fácil de usar. Além disso, boas práticas, convenções e pequenas regras podem fazer com que este seja bem aceito por milhares de desenvolvedores ou não.
+Nesta palestra mostro diversas orientações de como desenvolver seu framework, seja corporativo ou um projeto open-source.
+Nuget dentro de sua Empresa
+
+Nesta palestra mostro diversas orientações de como desenvolver seu framework, seja corporativo ou um projeto open-source. Como fazer com ele seja extensível? Quando deixar um método virtual? Como nomear enumerations? Como versionar o assembly?
+Todo isso explicado de maneira simples e com exemplos.">Desenhando seu próprio framework</a></td>
+              <td>13:30</td>
+            </tr>
+            <tr>
+              <td>Jorge Maia</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Nesta apresentação demonstrarei um pouco sobre como trabalhar com o  Roslyn no MAC OS, ou seja, dentro de um sistema operacional não windows, executarei códigos escritos 100% em C# e falarei sobre problemas que enfrentei para executar e compilar.
+
+              Um pouco sobre o que era antigamente e o que podemos esperar do Mono daqui por diante, uma nova porta que se abre para quem quer continuar no C# e na Framework dotNET e ao mesmo tempo aproveitar a possibilidade de ser multiplataforma.
+              ">C# rodando no MAC OS com Roslyn</a></td>
+              <td>14:30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Coffee-Break</td>
+              <td>15:30</td>
+            </tr>
+            <tr>
+              <td>A definir</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <td>A definir</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+              <td>17:00</td>
+            </tr>
+            <tr>
+              <td>A definir</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+              <td>18:00</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Sábado - 03/08/2013</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Palestrante</th>
+              <th>Palestra</th>
+              <th>Horário</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>A definir</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+              <td>10:00</td>
+            </tr>
+            <tr>
+              <td>A definir</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+                <td>11:00</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Almoço</td>
+                <td>12:00</td>
+              </tr>
+              <tr>
+                <td>A definir</td>
+                <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+                <td>13:30</td>
+              </tr>
+              <tr>
+                <td>A definir</td>
+                <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+                  <td>14:30</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Coffee-Break</td>
+                  <td>15:30</td>
+                </tr>
+                <tr>
+                  <td>A definir</td>
+                  <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A definir">A definir</a></td>
+                  <td>16:00</td>
+                </tr>
+                <tr>
+                  <td>A definir</td>
+                  <td>A definir</td>
+                  <td>16:30</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>A definir</td>
+                  <td>17:30</td>
+                </tr>
+                <tr>
+                  <td>Todos</td>
+                  <td>Encerramento</td>
+                  <td>18:30</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>A grade está sujeita a alterações sem aviso prévio.</p>
+      </section>
 
 
-        <hr class="featurette-divider">
-        <a name="programacao"></a>
-        <section class="featurette">
-            <h2 class="featurette-heading">Programação</h2>
-            <p>Em breve.</p>
-        </section>
-
-	  
-	  <hr class="featurette-divider">
-	  <a name="patrocinadores"></a>
-	  <section class="featurette">
+      <hr class="featurette-divider">
+      <a name="patrocinadores"></a>
+      <section class="featurette">
         <h2 class="featurette-heading">Patrocinadores</h2>
-		<div>
-            <p class="lead">Interessado em patrocinar o DNAD14? </p>
-		 <p>Baixe o <a href="https://www.dropbox.com/s/5llg179a5ovb1k2/Patrocinio%20DNAD14.pdf">documento</a> com informações sobre patrocínio. E <a href="#contato">entre em contato</a> com a organização para fechar essa parceria.</p>
-		</div>	
+        <div>
+          <p class="lead">Interessado em patrocinar o DNAD14? </p>
+          <p>Baixe o <a href="https://www.dropbox.com/s/5llg179a5ovb1k2/Patrocinio%20DNAD14.pdf">documento</a> com informações sobre patrocínio. E <a href="#contato">entre em contato</a> com a organização para fechar essa parceria.</p>
+        </div>
 
       </section>
 
-        <hr class="featurette-divider">
-        <a name="local"></a>
-        <section class="featurette">
-            <h2 class="featurette-heading">Local</h2>
+      <hr class="featurette-divider">
+      <a name="local"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Local</h2>
 
-            <p>Em breve.</p>
-        </section>
+        <p>Em breve.</p>
+      </section>
 
-        <hr class="featurette-divider">
-        <a name="organizacao"></a>
-        <section class="featurette">
-            <h2 class="featurette-heading">Organização</h2>
+      <hr class="featurette-divider">
+      <a name="organizacao"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Organização</h2>
 
+        <div>
+          <img class="organizador-img img-polaroid" src="http://1.gravatar.com/avatar/bfd8bb90fdf6e83c2f81b019fc74cc4f" class="img-polaroid" />
+          <div>
+            <h3>
+              <a href="http://twitter.com/rodrigovidal">Rodrigo Vidal</a></h3>
+              <p>Desenvolvedor interessado em linguagens funcionais, engenharia, matemática e física. F# MVP.</p>
+            </div>
+          </div>
+          <hr />
+
+          <div style="clear: both">
+            <img class="organizador-img img-polaroid" src="http://1.gravatar.com/avatar/22cac40ebe7d9e1e7854ea9808debd7b" class="img-polaroid" />
             <div>
-                <img class="organizador-img img-polaroid" src="http://1.gravatar.com/avatar/bfd8bb90fdf6e83c2f81b019fc74cc4f" class="img-polaroid" />
-                <div>
-                    <h3>
-                        <a href="http://twitter.com/rodrigovidal">Rodrigo Vidal</a></h3>
-                        <p>Desenvolvedor interessado em linguagens funcionais, engenharia, matemática e física. F# MVP.</p>
-                </div>
+              <h3>
+                <a href="http://twitter.com/breno_ferreira">Breno Ferreira</a></h3>
+                <p>Desenvolvedor de Software @lambdatres. Random stuff, zoeira da rede mundial de computadores, programação funcional, games e tecnologia.</p>
+              </div>
             </div>
             <hr />
 
             <div style="clear: both">
-                <img class="organizador-img img-polaroid" src="http://1.gravatar.com/avatar/22cac40ebe7d9e1e7854ea9808debd7b" class="img-polaroid" />
-                <div>
-                    <h3>
-                        <a href="http://twitter.com/breno_ferreira">Breno Ferreira</a></h3>
-                        <p>Desenvolvedor de Software @lambdatres. Random stuff, zoeira da rede mundial de computadores, programação funcional, games e tecnologia.</p>
+              <img class="organizador-img img-polaroid" src="http://0.gravatar.com/avatar/e0097ec4f79a53695dcef96b5b8d55df" class="img-polaroid" />
+              <div>
+                <h3>
+                  <a href="http://twitter.com/egomesbrandão">Emmanuel Brandão</a></h3>
+                  <p>Sou desenvolvedor de software. Apaixonado por código. Estou voltando a me apaixonar pela eletrônica, mas usando bastante software junto.</p>
                 </div>
-            </div>
-            <hr />
+              </div>
+              <hr />
 
-            <div style="clear: both">
-                <img class="organizador-img img-polaroid" src="http://0.gravatar.com/avatar/e0097ec4f79a53695dcef96b5b8d55df" class="img-polaroid" />
-                <div>
-                    <h3>
-                        <a href="http://twitter.com/egomesbrandão">Emmanuel Brandão</a></h3>
-                    <p>Sou desenvolvedor de software. Apaixonado por código. Estou voltando a me apaixonar pela eletrônica, mas usando bastante software junto.</p>
-                </div>
-            </div>
-            <hr />
-
-            <div style="clear: both">
+              <div style="clear: both">
                 <img class="organizador-img img-polaroid" src="http://2.gravatar.com/avatar/77cc77ccdaf329705ce14a9d3ff1e8a8"  />
                 <div>
-                    <h3>
-                        <a href="http://twitter.com/mauricioaniche">Maurício Aniche</a></h3>
+                  <h3>
+                    <a href="http://twitter.com/mauricioaniche">Maurício Aniche</a></h3>
                     <p>PhD candidate in computer software, Mauricio works for Caelum. He researches on Mining Sofware Repositories, TDD, and Agile Methods.</p>
+                  </div>
                 </div>
-            </div>
-            <hr />
-        </section>
+                <hr />
+              </section>
 
-        <hr class="featurette-divider">
-        <a name="contato"></a>
-        <section class="featurette">
-            <h2 class="featurette-heading">Contato</h2>
-            <div >
-                <p>Caso tenha alguma dúvida, problema de inscrição ou deseje patrocinar ou apoiar o evento, envie um email para: <a href="mailto:dnad@dotnetarchitects.ne?Subject=DNAD13">dnad@dotnetarchitects.net</a></p>
-            </div>
+              <hr class="featurette-divider">
+              <a name="contato"></a>
+              <section class="featurette">
+                <h2 class="featurette-heading">Contato</h2>
+                <div >
+                  <p>Caso tenha alguma dúvida, problema de inscrição ou deseje patrocinar ou apoiar o evento, envie um email para: <a href="mailto:dnad@dotnetarchitects.ne?Subject=DNAD13">dnad@dotnetarchitects.net</a></p>
+                </div>
 
-        </section>
+              </section>
 
-        <!-- /END THE FEATURETTES -->
+              <!-- /END THE FEATURETTES -->
 
-        <!--
-        <div class="row">
-            <div class="span4 offset1">
-                <a target="_blank" href="http://maps.google.com/maps?hl=en&ie=UTF-8&q=hotel+windsor+guanabara&fb=1&hq=hotel+windsor+guanabara&cid=0,0,12863607507337796918&ei=YVlwUcLCHpKm9gSfkYHIAg&ved=0CNMBEPwSMAA">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/hotel.png">
-                </a>
-                <h2>Local</h2>
-                <p>Hotel Windsor Guanabara, Av. Presidente Vargas, 392 - Centro, Rio de Janeiro - RJ, 20071-000</p>
-                <p><a class="btn" href="#local">Mais Detalhes &raquo;</a></p>
-            </div>
-            <div class="span4 offset1">
-                <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/Star.PNG">
-                <h2>Patrocínio</h2>
-                <p>Seja patrocinador do DNAD.</p>
-                <p><a class="btn" href="#patrocinadores">Mais Detalhes &raquo;</a></p>
-            </div>
-        </div>-->
-        <!-- FOOTER -->
-        <footer>
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2014 .NET Architects. &middot; <a href="http://www.dotnetarchitects.net/" target="_blank">Site</a></p>
-            <!--<p><i>Microsoft is a trademark of the Microsoft group of companies</i></p>-->
-        </footer>
+              <!--
+              <div class="row">
+              <div class="span4 offset1">
+              <a target="_blank" href="http://maps.google.com/maps?hl=en&ie=UTF-8&q=hotel+windsor+guanabara&fb=1&hq=hotel+windsor+guanabara&cid=0,0,12863607507337796918&ei=YVlwUcLCHpKm9gSfkYHIAg&ved=0CNMBEPwSMAA">
+              <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/hotel.png">
+            </a>
+            <h2>Local</h2>
+            <p>Hotel Windsor Guanabara, Av. Presidente Vargas, 392 - Centro, Rio de Janeiro - RJ, 20071-000</p>
+            <p><a class="btn" href="#local">Mais Detalhes &raquo;</a></p>
+          </div>
+          <div class="span4 offset1">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/Star.PNG">
+          <h2>Patrocínio</h2>
+          <p>Seja patrocinador do DNAD.</p>
+          <p><a class="btn" href="#patrocinadores">Mais Detalhes &raquo;</a></p>
+        </div>
+      </div>-->
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 .NET Architects. &middot; <a href="http://www.dotnetarchitects.net/" target="_blank">Site</a></p>
+        <!--<p><i>Microsoft is a trademark of the Microsoft group of companies</i></p>-->
+      </footer>
 
     </div>
     <!-- /.container -->
@@ -327,33 +496,31 @@
     <script src="./js/jquery.js"></script>
     <script src="./bootstrap/js/bootstrap.js"></script>
     <script>
-        !function ($) {
-            $(function () {
-                // carousel demo
-                $('#myCarousel').carousel();
-                $('.descricao-palestra')
-                        .popover()
-                        .click(function(e){
-                            e.preventDefault();
-                        });
-            });
-        }(window.jQuery)
+    !function ($) {
+      $(function () {
+        // carousel demo
+        $('#myCarousel').carousel();
+        $('.descricao-palestra')
+        .popover()
+        .click(function(e){
+          e.preventDefault();
+        });
+      });
+    }(window.jQuery)
     </script>
 
     <script type="text/javascript">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-40352216-1']);
-        _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40352216-1']);
+    _gaq.push(['_trackPageview']);
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
     </script>
-</body>
-</html>
-
-
+  </body>
+  </html>
