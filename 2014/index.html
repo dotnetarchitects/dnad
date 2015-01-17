@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>.NET Architects Days 2014 - DNAD14</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=".NET Architects Days 2014 - DNAD 2014. O maior evento de arquitetura do Brasil">
+  <meta name="author" content="DNAD">
+  <link rel="shortcut icon" href="/img/favicon.ico"/>
+
+  <!-- Facebook metatags -->
+  <meta property="og:url"   content="http://dnad.azurewebsites.net/" />
+  <meta property="og:title" content="DNAD 2014 - Arquitetura de Software" />
+  <meta property="og:description" content="DNAD 2014. O maior evento de arquitetura de software do Brasil" />
+  <meta property="og:image" content="http://dnad.azurewebsites.net/img/facebook-logo.png" />
+
+  <!-- Le styles -->
+  <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="./css/Site.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+        <div class="social">
+
+          <!--facebook like btn-->
+          <div class="fb-like" data-href="http://dnad.azurewebsites.net/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+          <!--twitter btn-->
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="netarchitects" data-hashtags="DNAD">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+          <!-- Place this tag where you want the +1 button to render. -->
+          <div class="g-plusone" data-size="medium"></div>
+
+          <!-- Place this tag after the last +1 button tag. -->
+          <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+          </script>
+
+          <!-- AddThis Button END -->
+        </div>
+        <img id="logo" src="./img/logo2.png" width="450" alt=".NET Architects" />
+        <nav class="navbar">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#"></a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="#sobre">Sobre o DNAD14</a></li>
+                <li><a href="#inscricoes">Inscrições</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#patrocinadores">Apoio</a></li>
+                <li><a href="#local">Local</a></li>
+                <li><a href="#organizacao">Organização</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./img/sp.jpg" alt="" style="overflow: hidden; height: auto;">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>12 e 13 de Setembro de 2014</h1>
+              <p class="lead">O evento acontecerá em São Paulo</p>
+              <a class="btn btn-large btn-primary" href="#inscricoes">Inscrições ABERTAS!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+      <a name="sobre"></a>
+      <section class="featurette">
+        <!-- <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png"> -->
+        <h2 class="featurette-heading">O MAIOR evento de arquitetura do Brasil.</h2>
+        <p>O .Net Architects Days é uma conferência nacional sem fins lucrativos focada em arquitetura de software. O objetivo do evento foi trazer para o mercado uma visão avançada sobre desenvolvimento de software utilizando padrões, práticas, técnicas e ferramentas que permitem o desenvolvimento sustentável de um aplicativo. Contamos com assuntos técnicos, conceituais, práticos e acadêmicos.</p>
+
+        <h3>Público alvo</h3>
+        <p>Este é um evento não destinado apenas à comunidade técnica de desenvolvedores e arquitetos. Entre os papéis interessados no evento encontram-se:</p>
+        <ul class="unstyled">
+          <li>Arquitetos de Software</li>
+          <li>Desenvolvedores de software</li>
+          <li>Testadores</li>
+          <li>Analistas de Sistemas</li>
+          <li>Analistas de Negócio</li>
+          <li>Empresários de TI</li>
+          <li>Gerentes de desenvolvimento</li>
+          <li>Professores e pesquisadores de TI</li>
+          <li>Demais interessados na melhoria da qualidade e produtividade em software</li>
+        </ul>
+
+        <h3>Fique ligado</h3>
+        <p>Acompanhe as últimas novidades do evento pelo Twitter seguindo a hashtag <a href="http://twitter.com/search?q=%23dnad14">#DNAD14</a>, seguindo <a href="http://twitter.com/netarchitects">@netarchitects</a> para obter mais informações sobre o evento.</p>
+      </section>
+
+        <hr class="featurette-divider">
+        <a name="inscricoes"></a>
+        <section class="featurette">
+            <h2 class="featurette-heading">Inscrições</h2>
+            <p>
+	    	Vamos liberar a compra por lotes, se pudermos fechar o evento no primeiro seria muito melhor. Por isso não perca tempo e inscreva-se!
+	    </p>
+
+		<style type="text/css">
+		.tg  {border-collapse:collapse;border-spacing:0;}
+		.tg td{font-family:Arial, sans-serif;font-size:14px;padding:11px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:11px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+		.tg .tg-y70x{font-weight:bold;background-color:#9b9b9b;color:#000000}
+		</style>
+
+		<table class="tg">
+		  <tr>
+			<th class="tg-y70x">Início</th>
+			<th class="tg-y70x">Término</th>
+			<th class="tg-y70x">Valor</th>
+		  </tr>
+		  <tr>
+			<td class="tg-031e">25/mai/14</td>
+			<td class="tg-031e">08/jun/14</td>
+			<td class="tg-031e">R$ 140,00</td>
+		  </tr>
+		  <tr>
+			<td class="tg-031e">09/jun/14</td>
+			<td class="tg-031e">29/jun/14</td>
+			<td class="tg-031e">R$ 170,00</td>
+		  </tr>
+		  <tr>
+			<td class="tg-031e">30/jun/14</td>
+			<td class="tg-031e">09/set/14</td>
+			<td class="tg-031e">R$ 200,00</td>
+		  </tr>
+		</table>
+		<br>
+	    <p>
+	    	<a class="button-small-text" href="https://www.sympla.com.br/dnad14---net-architects-days-2014__20304" target="_blank"><img src="http://www.sympla.com.br/images/btn-buy-tickets.png" alt="" style="" /></a>
+	    </p>
+
+		</section>
+
+      <hr class="featurette-divider">
+      <a name="palestrantes"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Palestrantes</h2>
+
+        <div>
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px;" src="img/palestrantes/roberta.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/rla4" target="_blank">Roberta Arcoverde</a></h3>
+            <p>
+              Tenho um pé na academia e outro na indústria, então vou resumir meus dois pés rapidamente: como pesquisadora, sou Mestre em Informática pela PUC-Rio, e Cientista da Computação pela UFPE, com ênfase nas áreas de Engenharia de Software e Linguagens de Programação. Na indústria, trabalho há 6 anos como desenvolvedora de software, com foco em aplicações Web e tecnologias Microsoft, e desde março de 2014 integro o time de desenvolvimento da Stack Exchange.
+            </p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/konrad.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/konr" target="_blank">Konrad Scorciapino</a></h3>
+            <p>Engenheiro, apaixonado por programmação funccional.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/jorge.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/jorgemaia" target="_blank">Jorge Maia</a></h3>
+            <p>"Cientista da Computação, com mais de 20 anos desenvolvendo software, fundador dos CrazyTechGuys,Consultor de ALM, Agile e desenvolvimento software. MCSD, MCT e CSM. Entusiasta de Internet of Things e Wearable devices, uma pessoa da comunidade de tecnologia que gosta de colaborar com a rede."</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/cavalcante.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/vcavalcante" target="_blank">Victor Cavalcante</a></h3>
+            <p>Victor, Arquiteto de Software, Agilista, Professor Universitário, Sócio da @lambdatres e MVP.</p>
+          </div>
+        </div>
+
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/giovanni.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/giovannibassi" target="_blank">Giovanni Bassi</a></h3>
+            <p>Arquiteto e desenvolvedor, agilista, escalador, provocador. Foi reconhecido Microsoft MVP depois que alguém notou que ele não dormia a noite pra ficar escrevendo artigos, cuidando e participando do .Net Architects, gravando o podcast Tecnoretórica, escrevendo posts no blog e falando o que bem entende no twitter @giovannibassi. E por falar nisso é no twitter que conta pra todos que gerencia de projetos deve ser feita pelo time e não por um gerentes, que greves em TI são coisas sem sentido e que stored procedure com regras de negócio são malígnas. De tanto gostar disso ele trouxe os programas de certificação e treinamento PSD e PSM da Scrum.org pro Brasil, e por causa deles, do MVP e de algum trabalho que aparece tem que ficar indo pros EUA de vez enquando, coisa que prefere não fazer. (É bem comum você ouvir ele perguntando porque a Scrum.org e a Microsoft não estão na Itália, por exemplo.) Junto com alguns Jedis criou a Lambda3, que, apesar de ser pequena e de não ser muito comum no Brasil, insiste em fazer projetos e consultoria direito. Por causa da Lambda3 ele tem trabalhado mais do que quando era consultor independente, mas menos do que a maioria das pessoas. Quer dizer, isso se você considerar que os trabalhos junto à comunidade não são trabalho, caso contrário ele trabalha mais que a maioria das pessoas. Recentemente ele resolveu que merecia viver melhor e ganhar uns anos de vida e desistiu de ser sedentário, fazendo algum barulho de vez em quando com os amigos no twitter com a hashtag #DotNetEmForma. Por causa do convite recente de amigos do lado Open Source (que ele respeita e admira), começou a escalar, e agora está sempre com as mãos machucadas. Mas ainda dá pra programar. Você encontra ele sempre em algum evento, como o TechEd, e o DNAD, mas também outros menos comuns para o pessoal do .NET, como a RubyConf. Nesses eventos, ou ele está vendo palestras, ou batendo papo com alguém, ou codando alguma aplicação que alguém achou que dava pra fazer durante o evento. </p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/luis.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="www.linkedin.com/in/luisphfernandes" target="_blank">Luís Fernandes</a></h3>
+            <p>Luís Fernandes é diretor da LPH Solution. Nós ajudamos líderes a desenvolverem uma vida feliz e bem sucedida! É possível ter os dois.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/molesim.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/raphaelmolesim" target="_blank">Raphael Molesim</a></h3>
+            <p>Raphael Molesim é bacharel em Sistema de Informação pela EACH/USP e tem atuado no mercado de desenvolvimento de software há 9 anos. Hoje, na Lambda3, trabalha principalmente como Agile Coach, ajudando times na adoção de práticas ágeis. Além de atuar no comercial, recrutamento e desenvolvedor nas horas vagas.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/noronha.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/rafanoronha" target="_blank">Rafael Noronha</a></h3>
+            <p>Rafa Noronha curte construir aplicações web e sistemas distribuídos em qualquer plataforma. Jura de pé juntos que trabalhar com Java também pode ser legal e por isso decidiu fundar o javafacil.net. Trabalha na Lambda3 onde entrega software para seus clientes e dá trabalho para seus colegas nos confrontos de Mortal Kombat e FIFA.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/galuppo.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://member.acm.org/~fabiogaluppo" target="_blank">Fabio Galuppo</a></h3>
+            <p>Engenheiro de Software (nome bonito para programador) e Cientista da Computação com grande experiência em Arquitetura e Desenvolvimento de Software. Outras informações poderão ser encontradas em : <a href="http://member.acm.org/~fabiogaluppo">http://member.acm.org/~fabiogaluppo</a></p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/margarito.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/fabiomargarito" target="_blank">Fabio Margarito</a></h3>
+            <p>Mais de 14 anos de experiência em TI e 8 anos como arquiteto de software e solução de Instituições Financeiras atuando em projetos de missão crítica. Trabalha com .NET desde as versões Beta, professor universitário, membro ativo e cofundador do grupo .NET Architects, autor de artigos para a revista .NET Magazine, sócio do IASA (The Global IT Architect Associaton) e instrutor de cursos relacionados a Arquitetura de Software na MBCorp, empresa na qual é proprietário.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/guto.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/gutomcosta" target="_blank">Luiz Costa</a></h3>
+            <p>Com mais de 10 anos de experiência com desenvolvimento de software, já trabalhou em projetos nos setores de saúde, varejo e segurança utilizando várias linguagens de programação, dentre elas Java, C#, Ruby e Clojure. Atualmente pesquisa sobre Machine Learning e como suas idéias podem ser utilizadas nos projetos do dia a dia.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/waldyr.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/waldyrfelix" target="_blank">Waldyr Felix</a></h3>
+            <p>Arquiteto de Software no Time de Operações Críticas da FCamara e Microsoft MVP. Tem atuado como consultor em projetos de risco, atendendo demandas de melhoria de performance, cloud computing e ALM.</p>
+          </div>
+        </div>
+
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/eduardo.jpeg" class="img-polaroid" />
+          <div>
+            <h3><a href="http://twitter.com/EduardoPiresBR" target="_blank">Eduardo Pires</a></h3>
+            <p>Eduardo é Microsoft MVP, Arquiteto de Sistemas, Desenvolvedor, Palestrante, Blogueiro, Instrutor, Pai, Dono de Casa e Entusiasta de Home Office.</p>
+          </div>
+        </div>
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/rafael.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="https://www.linkedin.com/pub/rafael-monteiro-e-pereira/23/910/38a" target="_blank">Rafael Monteiro</a></h3>
+            <p>Um pé na academia e outro na industria...
+Cientista da Computação e Mestrando em Inteligencia Artificial.
+Entre as principais áreas de interesse se encontram-se High Performance Computing, Algoritmos, Inteligencia Artificial, Reactive Systems e Real time Systems.
+
+Na industria atua como Engenheiro de Software, projetando a arquiteturas que requerem baixa latência / alto desempenho e otimização de performance em softwares de missão critica.
+            </p>
+          </div>
+        </div>
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/magoo.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="https://twitter.com/magoolation" target="_blank">Alexandre Santos Costa</a></h3>
+            <p>Desenvolvedor, deficiente visual, apaixonado por tecnologia e  promotor da acessibilidade.</p>
+          </div>
+        </div>
+        <div style="clear: both">
+          <img data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px; float: left; margin-right:20px" src="img/palestrantes/malegra.jpg" class="img-polaroid" />
+          <div>
+            <h3><a href="https://twitter.com/malegretti" target="_blank">Mauricio Tadeu Alegretti</a></h3>
+            <p>Empreendedor na área de tecnologia, diretor de tecnologia da empresa Smyowl, Microsoft MVP em Kinect, criador da iniciativa BR Jogos, fundador do capítulo Sorocaba da International Game Developers Association (IGDA), palestrante nos temas de jogos digitais e interfaces de usuário, e um dos fundadores do Portalxbox e da ACIGAMES - Associação Comercial, Industrial e Cultural dos Games.</p>
+          </div>
+        </div>
+		</section>
+
+      <hr class="featurette-divider">
+      <a name="submissao"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Submissão de palestras</h2>
+        <p>Período de submissão de palestras encerrado.</p>
+      </section>
+
+      <hr class="featurette-divider">
+      <a name="programacao"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Programação</h2>
+
+        <h3>Sexta - 12/09/2014</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Palestrante</th>
+              <th>Palestra</th>
+              <th>Horário</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>Credenciamento &amp Café da manhã</td>
+              <td>08:30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Abertura</td>
+              <td>9:45</td>
+            </tr>
+            <tr>
+              <td>Roberta Arcoverde</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="O Stack Overflow Careers é um produto que objetiva unir profissionais de tecnologia diferenciados a empresas também diferenciadas. Contando com um banco de 3 milhões de potenciais usuários, nosso grande desafio foi montar um mecanismo de busca capaz de minerá-los com eficiência (respostas rápidas!) e flexibilidade (buscas customizadas!). Indexação (elasticsearch), caching (redis) e linguagens específicas de domínio (CQL - homemade with ♥) nortearam a arquitetura deste mecanismo, que pretendo detalhar nesta palestra.">Extração de Informação no Stack Overflow Careers</a></td>
+              <td>10:00</td>
+            </tr>
+            <td>Rafael Noronha e Raphael Molesim</td>
+            <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Vamos compartilhar nossa experiência no desenvolvimento de um produto SaaS onde nos apoiamos em inúmeras ferramentas para atender à determinadas restrições técnicas, mudanças de direção determinadas pelo cliente, implementação de um domínio rico e a necessidade de uma interface de usuário sofisticada.
+O objetivo é abordar um case de arquitetura SPA, apresentando experiências reais na condução da arquitetura desse sistema frente a todas essas necessidades.">Desafios reais de uma arquitetura emergente</a></td>
+              <td>10:50</td>
+            </tr>
+            <tr>
+              <td>Luiz Costa</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Machine Learning tem se tornado um tópico importante no cenário de software atual. Muito do que se vê sobre o assunto ainda está altamente relacionado a uma matemática complicada, algo exclusivamente acadêmico ou relacionado ao tema do momento, Big Data. A proposta desta apresentação é tentar mostrar um pouco além da teoria sobre o assunto. Mostrar como parte de toda a carga conceitual por trás de Machine Learning, tem tornado aplicações ligeiramente mais “inteligentes” e como isso pode ser usado em projetos mais tradicionais do mundo empresarial, sem necessidade de ser uma grande startup, que produz alguns milhões de registros de dados por dia. Nesta palestra, será apresentada  uma visão geral sobre o assunto, será mostrado alguns algoritmos e exemplos de aplicações. Além de mostrar um pouco pouco do trabalho que está sendo feito no processo de evolução de um sistema de recomendação e da otimização de processos empresariais através das idéias de Process Mining.">Aplicações Práticas de Machine Learning</a></td>
+              <td>11:40</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Almoço</td>
+              <td>12:30</td>
+            </tr>
+            <tr>
+              <td>Jorge Maia</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Nesta apresentação demonstrarei um pouco sobre como trabalhar com o  Roslyn no MAC OS, ou seja, dentro de um sistema operacional não windows, executarei códigos escritos 100% em C# e falarei sobre problemas que enfrentei para executar e compilar.
+
+              Um pouco sobre o que era antigamente e o que podemos esperar do Mono daqui por diante, uma nova porta que se abre para quem quer continuar no C# e na Framework dotNET e ao mesmo tempo aproveitar a possibilidade de ser multiplataforma.
+              ">C# rodando no MAC OS com Roslyn</a></td>
+              <td>14:00</td>
+            </tr>
+            <tr>
+              <td>Fabio Galuppo</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Um problema é considerado intratável quando não existe um algoritmo conhecido que o resolva deterministicamente em tempo polinomial. Este tipo de problema é denominado NP. O objetivo desta palestra é apresentar uma abordagem que combina Monads, Computação Paralela, Inteligência Artificial e C++ para encontrar boas soluções em problemas NP.">Uma viagem aos problemas intratáveis</a></td>
+              <td>14:50</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Coffee-Break</td>
+              <td>15:40</td>
+            </tr>
+            <tr>
+              <td>Fabio Margarito</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="O carro chefe da orientação a objetos é a possibilidade de, intuitivamente, modelar os aspectos do mundo real de forma direta e objetiva. Se seguirmos esta abordagem literalmente, traremos complexidade desnecessária e violaremos princípios de responsabilidade. Nesta palestra iremos discorrer sobre a incorreta interpretação, problemas de design e propor uma nova forma de modelar o problema, o pseudo mundo real.">Modelagem OO: Mundo real ou pseudo mundo real?</a></td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <td>Alexandre Santos Costa</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="A comunicação é um dos pilares fundamentais do processo de desenvolvimento de software e para que ela seja efetiva é necessário que todos os participantes falem uma mesma linguagem e tenham um mesmo entendimento. Nesta palestra demonstro como as práticas Test Driven Design (TDD), Behavior Driven Design (BDD) e Domain Driven Design (DDD) podem se tornar ferramntas poderosas de comunicação, principalmente para pessoas com deficiência.">Usando Driven Design para criação de ambientes de trabalho inclusivos</a></td>
+              <td>16:50</td>
+            </tr>
+            <tr>
+              <td>Luís Fernandes</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Tempo é o recurso mais importante de qualquer profissional. Vou abordar os gargalos da gestão do tempo de uma maneira diferente e divertida, com técnicas de coaching, fazendo com que as pessoas não só aprendam sobre isso mas possam obter valor e gerar mudanças pra si.">Gestão do tempo como você nunca viu</a></td>
+              <td>17:40</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Sábado - 13/09/2014</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Palestrante</th>
+              <th>Palestra</th>
+              <th>Horário</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>Café da manhã</td>
+              <td>09:30</td>
+            </tr>
+            <tr>
+              <td>Giovanni Bassi e Victor Cavalcante</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Lembra do ASP.NET? Pois é, esqueça tudo. Na verdade quase tudo. Muita coisa vai mudar na próxima versão. Não teremos mais WebForms, e o ASP.NET MVC vai ficar muito diferente. Uma plataforma muito mais aberta e poderosa, capaz de rodar em Windows e Linux, mal começa a descrever o que está para vir por aí. Essa palestra vai te preparar para o que está pra chegar no próximo ano. É outro ASP.NET, com outra Microsoft por trás.">ASP.NET vNext</a></td>
+              <td>10:00</td>
+            </tr>
+            <tr>
+            <tr>
+              <td>Konrad Scorciapino</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Visão geral de como é divertido mexer e melhorar um sistema escrito em Clojure. Entre alguns assuntos, será abordado temas como: Lisps e programmação funcional; Datomic: programmação logica, immutabilidade e programabilidade; Como desenvolvemos (emacs, REPL, lighttable); Como testamos, como rodamos; Como explorar o clojure">(Clojure ♥)</a></td>
+              <td>10:50</td>
+            </tr>
+            <tr>
+              <td>Mauricio Tadeu Alegretti</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="O desenvolvimento e design dos jogos eletrônicos mudou substancialmente nos últimos anos, e hoje mesmo os games mais simples e casuais necessitam de algum tipo de infraestrutura de backend. Nesta palestra, conheça o estudo de alguns casos reais e saiba como o Windows Azure pode ser considerado uma opção viável para utilização neste cenário.">Usando Azure como backend em jogos</a></td>
+              <td>11:40</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Almoço</td>
+              <td>12:30</td>
+            </tr>
+            <tr>
+              <td>Waldyr Felix</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="O Redis tem se destacado no mundo NoSQL tanto como solução de persistência como de cache em memória. Nesta palestra serão apresentados os conceitos por trás do sucesso do Redis e como utilizar esta ferramenta para criar aplicações mais escaláveis.">Escalando Aplicações Usando Redis</a></td>
+              <td>14:00</td>
+            </tr>
+            <tr>
+              <td>Eduardo Pires</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Apresentação do ASP.NET Identity, como ele substituiu o antigo membership, features, arquitetura, implementação, dicas, case de arquitetura e demo.
+Desde seu lançamento em 2005 o ASP.NET Membership foi o componente oficial de gerenciamento de usuários, autenticação e autorização, em 2013 foi introduzido o ASP.NET Identity que mudou completamente a forma de trabalhar, pois possui uma arquitetura aberta que promove a facilidade de implementação, extensão e customização. Conheça por que você também deve avaliar a utilização do ASP.NET Identity em seus projetos.">ASP.NET Identity - O novo componente de membership para aplicações ASP.NET</a></td>
+              <td>14:50</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Coffee-Break</td>
+              <td>15:40</td>
+            </tr>
+
+            <tr>
+              <td>Rafael Monteiro</td>
+              <td><a href="#" class="descricao-palestra" data-placement="top" data-toggle="popover" data-title="Descricao" data-content="Segundo o Reactive Manifesto (http://www.reactivemanifesto.org/) aplicações reativas possuem como premissas: orientação a eventos, escalabilidade, resiliência e capacidade de resposta. O objetivo desta palestra é apresentar um breve tutorial sobre Programação Reativa utilizando exemplos em C#, F#, Java, Scala e C++.">Reactive Programming For All</a></td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <td>Todos</td>
+              <td>Debate com os participantes</td>
+              <td>16:50</td>
+            </tr>
+            <tr>
+              <td>Todos</td>
+              <td>Encerramento</td>
+              <td>17:40</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>A grade está sujeita a alterações sem aviso prévio.</p>
+      </section>
+
+      <hr class="featurette-divider">
+      <a name="local"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Local</h2>
+
+        <p>
+          Hotel Braston - R. Martins Fontes, 330 - Centro São Paulo - SP.
+        </p>
+        <iframe width="800" height="400" frameborder="0" scrolling="no"
+                style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC1Z_fGnHzlgiwTBkAY7T7L8aumtfJIbks&q=R. Martins Fontes, 330 - Centro, São Paulo - SP">
+        </iframe>
+
+        <h3>Vem de fora de São Paulo?</h3>
+
+        <h4>Hoteis</h4>
+        <p>
+          Recomendamos o hotel onde vai ser o evento, o <a href="http://www.braston.com/saopaulo/index.html" target="_blank">Braston Hotel São Paulo</a>.
+          <br />
+          Outras opções:
+          <ul>
+            <li><a href="http://www.braston.com/augusta/index.html" target="_blank">Braston Augusta</a> (Obs: não é o hotel do evento. Este hotel fica bem perto, na Rua Augusta)</li>
+            <li><a href="http://www.pergamon.com.br/" target="_blank">Pregamon Hotel</a></li>
+          </ul>
+        </p>
+
+        <h4>Transporte público</h4>
+        <p>
+          Recomendamos ir de Metrô, e descer em uma das estações mais próximas:
+
+          <ul>
+            <li>Estação República (Linha 4 Amarela)</li>
+            <li>Estação Anhangabaú (Linha 3 Vermelha)</li>
+          </ul>
+
+          Mais informações no <a href="http://www.metro.sp.gov.br/" target="_blank">site do MetroSP</a>.
+        </p>
+
+        <h4>Conheça a cidade</h4>
+        <p>Se voce vem de fora, e não conhece muito bem a cidade, São Paulo oferece uma variedade imensa de pontos turísticos, parques, bares, restaurantes, clubes noturnos, entre outras coisas. </p>
+        <p>O Fábio Akita publicou no <a href="http://www.akitaonrails.com/2014/08/24/off-topic-first-time-in-sao-paulo-what-to-do">blog dele</a> várias sugestões de lugares para visitar na cidade durante a estadia do pessoal que foi na RubyConf.</p>
+        <p>O Gizmodo também publicou <a href="http://gizmodo.uol.com.br/indicamos-10-passeios-inusitados-perto-das-estacoes-do-metro-em-sao-paulo/">algumas sugestões</a> lugares legais perto de estações de metrô.</p>
+      </section>
+
+
+      <hr class="featurette-divider">
+      <a name="patrocinadores"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Apoio</h2>
+        <div>
+          <p class="lead">O DNAD conta com o apoio de:</p>
+
+          <div>
+            <a href="http://www.caelum.com.br">
+              <img class="img-polaroid" style="width: 20em; margin: 10px" src="img/patrocinadores/caelum.jpg" alt="Caelum" />
+            </a>
+            <a href="http://www.lambda3.com.br">
+              <img class="img-polaroid" style="width: 20em; margin: 10px" src="img/patrocinadores/lambda3.png" alt="Lambda3" />
+            </a>
+            <a href="http://www.almsummitbrasil.com.br/">
+              <img class="img-polaroid" style="width: 20em; margin: 10px" src="img/patrocinadores/almsummit.png" alt="ALM Summit Brasil" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="featurette-divider">
+      <a name="organizacao"></a>
+      <section class="featurette">
+        <h2 class="featurette-heading">Organização</h2>
+
+        <div>
+          <img class="organizador-img img-polaroid" src="http://1.gravatar.com/avatar/bfd8bb90fdf6e83c2f81b019fc74cc4f" class="img-polaroid" />
+          <div>
+            <h3>
+              <a href="http://twitter.com/rodrigovidal">Rodrigo Vidal</a></h3>
+              <p>Desenvolvedor interessado em linguagens funcionais, engenharia, matemática e física. F# MVP.</p>
+            </div>
+          </div>
+          <hr />
+
+          <div style="clear: both">
+            <img class="organizador-img img-polaroid" src="http://1.gravatar.com/avatar/22cac40ebe7d9e1e7854ea9808debd7b" class="img-polaroid" />
+            <div>
+              <h3>
+                <a href="http://twitter.com/breno_ferreira">Breno Ferreira</a></h3>
+                <p>Desenvolvedor de Software @lambdatres. Random stuff, zoeira da rede mundial de computadores, programação funcional, games e tecnologia.</p>
+              </div>
+            </div>
+            <hr />
+
+            <div style="clear: both">
+              <img class="organizador-img img-polaroid" src="http://0.gravatar.com/avatar/e0097ec4f79a53695dcef96b5b8d55df" class="img-polaroid" />
+              <div>
+                <h3>
+                  <a href="http://twitter.com/egomesbrandão">Emmanuel Brandão</a></h3>
+                  <p>Sou desenvolvedor de software. Apaixonado por código. Estou voltando a me apaixonar pela eletrônica, mas usando bastante software junto.</p>
+                </div>
+              </div>
+              <hr />
+
+              <div style="clear: both">
+                <img class="organizador-img img-polaroid" src="http://2.gravatar.com/avatar/77cc77ccdaf329705ce14a9d3ff1e8a8"  />
+                <div>
+                  <h3>
+                    <a href="http://twitter.com/mauricioaniche">Maurício Aniche</a></h3>
+                    <p>PhD candidate in computer software, Mauricio works for Caelum. He researches on Mining Sofware Repositories, TDD, and Agile Methods.</p>
+                  </div>
+                </div>
+                <hr />
+              </section>
+
+              <hr class="featurette-divider">
+              <a name="contato"></a>
+              <section class="featurette">
+                <h2 class="featurette-heading">Contato</h2>
+                <div >
+                  <p>Caso tenha alguma dúvida, problema de inscrição ou deseje patrocinar ou apoiar o evento, envie um email para: <a href="mailto:dnad@dotnetarchitects.ne?Subject=DNAD14">dnad@dotnetarchitects.net</a></p>
+                </div>
+
+              </section>
+
+              <!-- /END THE FEATURETTES -->
+
+              <!--
+              <div class="row">
+              <div class="span4 offset1">
+              <a target="_blank" href="http://maps.google.com/maps?hl=en&ie=UTF-8&q=hotel+windsor+guanabara&fb=1&hq=hotel+windsor+guanabara&cid=0,0,12863607507337796918&ei=YVlwUcLCHpKm9gSfkYHIAg&ved=0CNMBEPwSMAA">
+              <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/hotel.png">
+            </a>
+            <h2>Local</h2>
+            <p>Hotel Windsor Guanabara, Av. Presidente Vargas, 392 - Centro, Rio de Janeiro - RJ, 20071-000</p>
+            <p><a class="btn" href="#local">Mais Detalhes &raquo;</a></p>
+          </div>
+          <div class="span4 offset1">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="./img/Star.PNG">
+          <h2>Patrocínio</h2>
+          <p>Seja patrocinador do DNAD.</p>
+          <p><a class="btn" href="#patrocinadores">Mais Detalhes &raquo;</a></p>
+        </div>
+      </div>-->
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 .NET Architects. &middot; <a href="http://www.dotnetarchitects.net/" target="_blank">Site</a></p>
+        <!--<p><i>Microsoft is a trademark of the Microsoft group of companies</i></p>-->
+      </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script>
+    !function ($) {
+      $(function () {
+        // carousel demo
+        $('#myCarousel').carousel();
+        $('.descricao-palestra')
+        .popover()
+        .click(function(e){
+          e.preventDefault();
+        });
+      });
+    }(window.jQuery)
+    </script>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40352216-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+  </body>
+  </html>
