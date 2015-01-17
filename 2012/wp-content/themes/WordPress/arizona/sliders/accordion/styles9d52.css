@@ -1,0 +1,32 @@
+/************************** EASY ACCORDION ***********************/
+
+/* UNLESS YOU KNOW WHAT YOU'RE DOING, DO NOT CHANGE THE FOLLOWING RULES */
+.easy-accordion{display:block;position:relative;overflow:hidden;padding:0;margin:0}
+.easy-accordion dt,.easy-accordion dd{margin:0;padding:0}
+.easy-accordion dt,.easy-accordion dd{position:absolute}
+.easy-accordion dt{margin-bottom:0;margin-left:0;z-index:5;/* Opera */ -o-transform: rotate(-90deg);/* Safari */ -webkit-transform: rotate(-90deg); /* Firefox */ -moz-transform: rotate(-90deg);-moz-transform-origin: 20px 0px;  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);cursor:pointer;}
+.easy-accordion dd{z-index:1;opacity:0;overflow:hidden}
+.easy-accordion dd.active{opacity:1;}
+.easy-accordion dd.no-more-active{z-index:2;opacity:1}
+.easy-accordion dd.active{z-index:3}
+.easy-accordion dd.plus{z-index:4}
+.easy-accordion .slide-number{position:absolute;bottom:0;left:10px;font-weight:normal;font-size:1.1em;/* Safari */ -webkit-transform: rotate(90deg); /* Firefox */ -moz-transform: rotate(90deg);  /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.easy-accordion h2{margin:0px 0 20px 0;padding:0;}
+
+/* FEEL FREE TO CUSTOMIZE THE FOLLOWING RULES */
+
+#slider-mainwrap{background:url('images/frame.png') no-repeat; width:960px; height:357px;  padding-top:11px}
+#accordion-1, .horizontal-accordion{width:940px;height:334px; margin:auto;}
+#accordion-1 dl, .horizontal-accordion dl{width:940px;height:347px}	
+#accordion-1 dt, .horizontal-accordion dt{color:#dddddd; text-shadow:0px 1px 1px #111; height: 54px;left: 0;margin-left: -22px;padding: 0 10px;position: absolute;text-align: right;top: 314px;width: 314px;z-index: 3;cursor: pointer;font-family:Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;height: 43px;letter-spacing: 1px;line-height: 38px;background: url('images/title.png');}
+#accordion-1 dt.active, .horizontal-accordion dt.active, #accordion-1 dt.hover{cursor:pointer; background: url('images/title_selected.png') no-repeat}
+#accordion-1 dt.active.hover{color:#fff}
+#accordion-1 dd, .horizontal-accordion dd{	padding:15px;margin-right:3px; }
+#accordion-1 dd{-moz-border-radius:5px; border-radius:5px; -webkit-border-radius:5px; background:url('../../img/header_bg.png'); }
+#accordion-1 .slide-number, .horizontal-accordion .slide-number{color:#333;left:10px; bottom:8px; font-weight:bold;}
+#accordion-1 .active .slide-number{color:#fff;}
+#accordion-1 a{color:#68889b}
+#accordion-1 .more{padding-top:10px;display:block}
+#accordion-1 p{font-size:14px}
+ .horizontal-accordion dt{border:1px solid #a4a4a4; border-top:none}
+ .horizontal-accordion dt:first-child{border-top:1px solid #a4a4a4}
