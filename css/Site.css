@@ -325,3 +325,6 @@ footer
     width:280px;
 }
 
+.titulo-palestra > h4 {
+    display: inline;
+}
