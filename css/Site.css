@@ -325,3 +325,17 @@ footer
     width:280px;
 }
 
+.titulo-palestra > h4 {
+    display: inline;
+}
+
+.titulo-palestra > h5 {
+    display: inline;
+    color: rgb(90, 90, 90);
+}
+
+.titulo-palestra > .caret {
+    margin-top: 8px;
+    border-top-color: rgb(90, 90, 90);
+    border-bottom-color: rgb(90, 90, 90);
+}
