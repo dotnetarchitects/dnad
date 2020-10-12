@@ -102,7 +102,7 @@ socialLinks:
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
-  title: "Contacts"
+  title: "Contato"
   links:
    - {link: "https://twitter.com/netarchitects", text: "Nos envie uma DM"}
  -
