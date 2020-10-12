@@ -2,7 +2,7 @@
   id: 0
   name: "Breno"
   surname: "Ferreira"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  thumbnailUrl: breno.jpg
   team: true
   social: 
     - {name: "twitter", link: "https://twitter.com/breno_ferreira"}
@@ -10,7 +10,7 @@
   id: 1
   name: "Emanuel"
   surname: "Brandão"
-  thumbnailUrl: OlehZasadnyy.jpg
+  thumbnailUrl: brandao.jpg
   team: true
   social: 
     - {name: "twitter", link: "https://twitter.com/egomesbrandao"}
@@ -18,7 +18,7 @@
   id: 2
   name: "Giovanni"
   surname: "Bassi"
-  thumbnailUrl: OstapAndrusiv.jpg
+  thumbnailUrl: giovanni.jpg
   team: true
   social: 
     - {name: "twitter", link: "https://twitter.com/giovannibassi"}
@@ -26,7 +26,7 @@
   id: 4
   name: "Grazi"
   surname: "Bonizi"
-  thumbnailUrl: DmytroDanylyk.jpg
+  thumbnailUrl: grazi.png
   team: true
   social: 
     - {name: "twitter", link: "https://twitter.com/GraziBonizi"}
