@@ -1,0 +1,32 @@
+- 
+  id: 0
+  name: "Breno"
+  surname: "Ferreira"
+  thumbnailUrl: breno.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/breno_ferreira"}
+- 
+  id: 1
+  name: "Emanuel"
+  surname: "Brandão"
+  thumbnailUrl: brandao.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/egomesbrandao"}
+- 
+  id: 2
+  name: "Giovanni"
+  surname: "Bassi"
+  thumbnailUrl: giovanni.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/giovannibassi"}
+- 
+  id: 4
+  name: "Grazi"
+  surname: "Bonizi"
+  thumbnailUrl: grazi.png
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/GraziBonizi"}
