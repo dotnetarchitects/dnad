@@ -26,7 +26,7 @@ organizerAlternateName: ".NET Architects"
 organizerDescription: "Grupo .NET Architects"
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://www.dotnetarchitects.net/"
 
 # Head
 metaKeywords: "event, dnad, software architecture"
@@ -36,35 +36,38 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
+c4pUrl: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/schedule/", text: "Agenda"}
- - {permalink: "/speakers/", text: "Palestrantes"}
+#  - {permalink: "/schedule/", text: "Agenda"}
+#  - {permalink: "/speakers/", text: "Palestrantes"}
  - {permalink: "/team/", text: "Organizacao"}
+ - {permalink: "/trilhas/", text: "Trilhas"}
+ - {permalink: "/cod/", text: "Código de Conduta"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um palestrante"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um palestrante"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "dnad.svg"
 heroTitle: "DNAD 2020"
 eventDate: "5 de Dezembro de 2020"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um palestrante"}
- - {permalink: "/#tickets", text: "Faça sua inscrição"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
+ - {link: "https://www.sympla.com.br/dnad-2020__1025790", text: "Faça sua inscrição"}
 
 # About Block
 aboutTitle: "Sobre o DNAD"
 aboutBlock:
  - {title: "DNAD 2020", text: "DNAD 2020. O maior evento de arquitetura de sofware do Brasil" }
+ - {online: "Evento Online", text: "Esse ano o DNAD será todo online. Haverá o stream das trilhas ao vivo no dia do evento." }
 
 
 
