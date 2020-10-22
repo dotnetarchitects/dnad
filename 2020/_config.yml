@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "DNAD 2020"
 email: "devfest@gdg.org.ua"
 description: "DNAD 2020. O maior evento de arquitetura de sofware do Brasil"
-baseurl: "/dnad"
+baseurl: ""
 url: "https://dotnetarchitects.github.io/dnad"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
