@@ -6,12 +6,9 @@
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
-                {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">  
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <p>{{ about.text }}</p>
                     </div>
-                </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
                 {% assign check = forloop.index | modulo:2 %}
                 {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
