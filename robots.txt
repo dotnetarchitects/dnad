@@ -1,1 +1,1 @@
-Sitemap: https://dotnetarchitects.github.io/dnad/sitemap.xml
+Sitemap: https://dotnetarchitects.github.io/dnad/dnad/sitemap.xml
