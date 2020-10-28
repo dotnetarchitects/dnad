@@ -4,6 +4,7 @@
   surname: "Ferreira"
   thumbnailUrl: breno.jpg
   team: true
+  miniBio: "Breno é desenvolvedor na Globo.com no time do CartolaFC. Possui mais de 10 anos de experiência em desenvolvimento de software em Javascript, C# e Python, e também programa em outras linguagens, como Golang e Scala"
   social: 
     - {name: "twitter", link: "https://twitter.com/breno_ferreira"}
 - 
@@ -12,6 +13,7 @@
   surname: "Brandão"
   thumbnailUrl: brandao.jpg
   team: true
+  miniBio: "Comecei a trabalhar profissionalmente em automação predial, minha formação é eletrônica. Usava o AutoCAD, e apesar de ter escrito algum código em C, para eletrônica, tive preguiça de aprender LISP, porém quando o VBA (Visual Basic for Applications) foi incorporado no AutoCAD, comecei a escrever código que me ajudasse no dia a dia. Lembro de um que me poupou dias de trabalho! E fui programar em VB6. Em 2004 comecei a aprender .Net, e durante esse tempo passei pelos mais diversos segmentos, seguros, manufatura, logística, ... Escrevendo código, telas, fazendo integrações. Passei por arquitetura de software, mas logo em seguida me envolvi com ALM. Hoje sou consultor ALM, ajudo equipes a entregar melhor o software que desenvolvem."
   social: 
     - {name: "twitter", link: "https://twitter.com/egomesbrandao"}
 - 
@@ -20,6 +22,7 @@
   surname: "Bassi"
   thumbnailUrl: giovanni.jpg
   team: true
+  miniBio: "Minha principal atividade é como consultor especialista em .NET, trabalhando focado principalmente em arquitetura e melhores práticas. Auxilio empresas nas suas decisões relacionadas a arquitetura e na criação de padrões, e trabalho diretamente na fase de análise de sistemas dos projetos, construindo uma base sólida para o nascimento e crescimento de novas aplicações. Além da consultoria de arquitetura trabalho auxiliando empresas na adoção de novas tecnologias Microsoft e na definição da estratégia de engenharia de software de departamentos de TI. Realizo também atividades de mentoring, direcionando diretamente equipes no caminho buscado, seja ele melhores práticas, arquitetura, ou uma tecnologia que ainda não conhecem. Para mais informações sobre os trabalhos realizados, visite www.lambda3.com.br."
   social: 
     - {name: "twitter", link: "https://twitter.com/giovannibassi"}
 - 
@@ -28,5 +31,6 @@
   surname: "Bonizi"
   thumbnailUrl: grazi.png
   team: true
+  miniBio: "Consultora DevOps, apóio empresas durante seu processo de transformação digital com princípios, ferramentas e práticas DevOps. Eu compartilho conteúdo de tecnologia via artigos, podcasts, meetups e conferências, normalmente sobre Arquitetura de Software, Domain Driven Design, DevOps, Docker e Kubernetes."
   social: 
     - {name: "twitter", link: "https://twitter.com/GraziBonizi"}
