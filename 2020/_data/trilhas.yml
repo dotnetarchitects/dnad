@@ -1,0 +1,76 @@
+-
+  nome: "Arquitetura Corporativa"
+  descricao: "Trilha focada em uma visão mais estratégica e de como a tecnologia impacta o negócio das empresas."
+  coordenadores:
+   - 
+    id: 0
+    name: "Elemar"
+    surname: "Júnior"
+    thumbnailUrl: elemar.jpg
+    miniBio: "EximiaCo - Founder & CEO"
+    social: 
+      - {name: "linkedin", link: "https://www.linkedin.com/in/elemarjr/"}
+   - 
+    id: 1
+    name: "Paula"
+    surname: "Santana"
+    thumbnailUrl: paula.jpg
+    miniBio: "Software Engineer, @Microsoft MVP, leader @mntbs, Jug Leader @soujava, @devsjavagirl, contrary the statistics ;)"
+    social: 
+      - {name: "twitter", link: "https://twitter.com/psanrosa13"}
+
+-
+  nome: "Arquitetura de Aplicações"
+  descricao: "Mesmo quando não pensada e desenhada, a arquitetura se materializa ao final do desenvolvimento de uma aplicação. Portanto, ainda que de forma evolutiva, a arquitetura de aplicações deve ser pensada de forma a alinhar a execução de um projeto com a estratégia de negócio. Do contrário, o desenvolvimento se torna um desajeitado exercício de remendos e escolhas equivocadas de tecnologias e padrões. Esta trilha busca explorar casos de arquitetura de aplicações com seus desafios e soluções em contextos de negócios diversos."
+  coordenadores:
+   - 
+    id: 2
+    name: "Leandro"
+    surname: "Daniel"
+    thumbnailUrl: leandro.jpeg
+    miniBio: "Dad, husband, systems architect, developer and amateur musician."
+    social: 
+      - {name: "twitter", link: "https://twitter.com/leandronet"}
+   - 
+    id: 3
+    name: "Marcela"
+    surname: "Carvalho"
+    thumbnailUrl: marcela.jpg
+    miniBio: "Desenvolvedora de software na Lambda3"
+    social: 
+      - {name: "linkedin", link: "https://www.linkedin.com/in/marcela-carvalho-21b892140/"}
+
+-
+  nome: "Arquitetura de Dados"
+  descricao: "Trilha com foco em arquiteturas e ferramentas para manipulação de dados, big data, machine learning e outras tendências da area"
+  coordenadores:
+   - 
+    id: 4
+    name: "Thiago"
+    surname: "Candido"
+    thumbnailUrl: thiago.png
+    miniBio: "AI Lead, Engineer, and Practitioner | IT Executive | Consultant"
+    social: 
+      - {name: "linkedin", link: "https://www.linkedin.com/in/tgcandido"}
+
+-
+  nome: "Arquitetura de Infraestrutura"
+  descricao: "Conteúdo com foco na área de Infraestrutura de tecnologia, operação de sistemas, DevOps, Arquitetura de Cloud, containers, etc."
+  coordenadores:
+   - 
+    id: 5
+    name: "Vinicius"
+    surname: "Martinez"
+    thumbnailUrl: martinez.png
+    miniBio: "Formado em Processamento de Dados pela FATEC de Santos, Pós Graduado em Arquitetura de Sistemas Distribuídos pela PUC Minas Gerais e com MBA em Gestão Empresarial pela Fundação Getúlio Vargas, Vinicius Martinez possui mais de 15 anos de experiência no mercado de TI atuando no desenvolvimento, implementação e arquitetura de sistemas e soluções de missão crítica para diversos segmentos do mercado. Atuou em empresas como EDS, TATA e atualmente é Arquiteto de Soluções Senior e Líder Técnico do time de Midddleware da Red Hat Brasil com foco em temas relacionados à Cloud, Middleware, DevOps e Adoção de Estratégias de Nuvem Híbrida."
+    social: 
+      - {name: "linkedin", link: "https://www.linkedin.com/in/vinicius-martinez-62716014/"}
+   - 
+    id: 6
+    name: "Grazi"
+    surname: "Bonizi"
+    thumbnailUrl: grazi.png
+    miniBio: "Consultora DevOps, apóio empresas durante seu processo de transformação digital com princípios, ferramentas e práticas DevOps. Eu compartilho conteúdo de tecnologia via artigos, podcasts, meetups e conferências, normalmente sobre Arquitetura de Software, Domain Driven Design, DevOps, Docker e Kubernetes."
+    social: 
+      - {name: "twitter", link: "https://twitter.com/GraziBonizi"}
+

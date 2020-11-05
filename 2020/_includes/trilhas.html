@@ -10,22 +10,38 @@
               <p>Devido à pandemia, o DNAD 2020 será 100% online. Serão quatro trilhas simultâneas transmitidas via streaming ao vivo no dia do evento:</p>
 
               <ul class="trilhas-list list-unstyled">
+              {% for trilha in site.data.trilhas %} {% if trilha != null %}
                 <li>
-                  Arquitetura Corporativa
-                  <p>Trilha focada em uma visão mais estratégica e de como a tecnologia impacta o negócio das empresas.</p>
+                  {{ trilha.nome }}
+                  <p>{{ trilha.descricao }}</p>
+
+                  <p class="coordenadores">Coordenadores da trilha:</p>
+                  {% for coordenador in trilha.coordenadores %}
+                  <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered ">
+                      <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ coordenador.id }}">
+                          <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: coordenador.thumbnailUrl }})">
+                              <div class="overlay solid-overlay"></div>
+                              <figcaption>
+                                  <div class="col-md-8 col-xs-8 text-left">
+                                      <h2 class="name">{{ coordenador.name }} <span>{{ coordenador.surname }}</span></h2>
+                                      <p>{{ coordenador.miniBio }}</p>
+                                      <div class="clearfix"></div>
+                                      <span class="position">{{ teamMember.title }}</span>
+                                  </div>
+                                  {% for social in coordenador.social %}
+                                  <a href="{{ social["link"] }}" target="_blank">
+                                      <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                          <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                      </svg>
+                                  </a>
+                                  {% endfor %}
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </div>
+                  {% endfor %}
                 </li>
-                <li>
-                  Arquitetura de Aplicações
-                  <p>Conteúdo sobre arquitetura de software e seus desafios, cases de arquiteturas e soluções.</p>
-                </li>
-                <li>
-                  Arquitetura de Dados
-                  <p>Trilha com foco em arquiteturas e ferramentas para manipulação de dados, big data, machine learning e outras tendências da area</p>
-                </li>
-                <li>
-                  Arquitetura de Infraestrutura
-                  <p>Conteúdo com foco na área de Infraestrutura de tecnologia, operação de sistemas, DevOps, Arquitetura de Cloud, containers, etc.</p>
-                </li>
+              {% endif %} {% endfor %}
               </ul>
 
               <p>

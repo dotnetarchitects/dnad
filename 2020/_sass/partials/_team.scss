@@ -6,15 +6,15 @@
 	    margin: 50px 0 20px;
 	    text-align: center;
 	}
+}
 
-	.zoe-effect:hover {
-		& figcaption {
-			height: 200px;
-			overflow-y: scroll;
+.zoe-effect:hover {
+	& figcaption {
+		height: 200px;
+		overflow-y: scroll;
 
-			p {
-				padding-top: 8px;
-			}
+		p {
+			padding-top: 8px;
 		}
 	}
 }
