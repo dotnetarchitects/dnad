@@ -42,7 +42,7 @@
 
 -
   nome: "Arquitetura de Dados"
-  descricao: "Trilha com foco em arquiteturas e ferramentas para manipulação de dados, big data, machine learning e outras tendências da area"
+  descricao: "Trilha com foco em casos de uso, ferramentas, frameworks, estruturas e novas tendências nas áreas de big data, IA e machine learning"
   coordenadores:
    - 
     id: 4
@@ -52,13 +52,21 @@
     miniBio: "AI Lead, Engineer, and Practitioner | IT Executive | Consultant"
     social: 
       - {name: "linkedin", link: "https://www.linkedin.com/in/tgcandido"}
+   - 
+    id: 5
+    name: "Sulamita"
+    surname: "Dantas"
+    thumbnailUrl: sulamita.jpeg
+    miniBio: "Sulamita Dantas é formada pelo em Ciência da Computação pelo Centro Universitário Unibh. Poussi experiência como Database Administrator SQL Server, Analyst TOTVS e Analyst Business Intelligence. Atualmente é: MVP Data Plataform (Microsoft Most Valuable Professional), Lider do Local Group SQL BH, Co-Organizadora do Grupo Random Hacks ONG MTAC."
+    social: 
+      - {name: "twitter", link: "https://twitter.com/suladantas"}
 
 -
   nome: "Arquitetura de Infraestrutura"
   descricao: "Conteúdo com foco na área de Infraestrutura de tecnologia, operação de sistemas, DevOps, Arquitetura de Cloud, containers, etc."
   coordenadores:
    - 
-    id: 5
+    id: 6
     name: "Vinicius"
     surname: "Martinez"
     thumbnailUrl: martinez.png
@@ -66,7 +74,7 @@
     social: 
       - {name: "linkedin", link: "https://www.linkedin.com/in/vinicius-martinez-62716014/"}
    - 
-    id: 6
+    id: 7
     name: "Grazi"
     surname: "Bonizi"
     thumbnailUrl: grazi.png
