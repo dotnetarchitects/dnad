@@ -1,15 +1,15 @@
 -
   nome: "Arquitetura Corporativa"
-  descricao: "Trilha focada em uma visão mais estratégica e de como a tecnologia impacta o negócio das empresas."
+  descricao: "A arquitetura corporativa compete a orquestração entre a implementação e os objetivos de negócio. Processos, integrações, padrões que zelam para que o negócio macro seja bem executado e esteja alinhado para toda a organização. Nesta trilha vamos abordar os desafios que organizações tem enfrentado e qual o futuro para aplicar estratégias para orquestração entre técnologia e negócios quanto a cenários complexos e grandiosos."
   coordenadores:
    - 
     id: 0
-    name: "Elemar"
-    surname: "Júnior"
-    thumbnailUrl: elemar.jpg
-    miniBio: "EximiaCo - Founder & CEO"
+    name: "Fabio"
+    surname: "Margarito"
+    thumbnailUrl: fabio.jpeg
+    miniBio: "Líder do time de arquitetura de uma grande instituição financeira com 20 anos de experiência e 12 anos na ramo financeiro.Sou apaixonado por ajudar no desenvolvimento de pessoas e educação. Sou curioso e sempre em busca de novos aprendizados e desafios."
     social: 
-      - {name: "linkedin", link: "https://www.linkedin.com/in/elemarjr/"}
+      - {name: "twitter", link: "https://twitter.com/fabiomargarito"}
    - 
     id: 1
     name: "Paula"
