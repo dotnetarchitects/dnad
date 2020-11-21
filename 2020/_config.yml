@@ -46,7 +46,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
 #  - {permalink: "/schedule/", text: "Agenda"}
 #  - {permalink: "/speakers/", text: "Palestrantes"}
- - {permalink: "/team/", text: "Organizacao"}
+ - {permalink: "/team/", text: "Organização"}
  - {permalink: "/trilhas/", text: "Trilhas"}
  - {permalink: "/cod/", text: "Código de Conduta"}
 bottomNavigationLinks:
