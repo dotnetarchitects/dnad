@@ -42,7 +42,7 @@
 
 -
   nome: "Arquitetura de Dados"
-  descricao: "Trilha com foco em casos de uso, ferramentas, frameworks, estruturas e novas tendências nas áreas de big data, IA e machine learning"
+  descricao: "Os benefícios aos negócios e as novas oportunidades trazidas pelo trabalho aplicado com dados são vastos. Grandes provedores de nuvem, inúmeros provedores menores e até a comunidade open-source, em busca de suprir essa demanda, trazem recursos e práticas inovadoras para compor soluções complexas de dados, desde a criação de pipelines de ETL até o treinamento e a publicação de modelos de machine learning. Desafios de arquitetura nessas soluções, cloud-agnostic ou não, discussões sobre componentes e como abordar essas aplicações de forma estratégica serão os principais tópicos de debate nessa trilha."
   coordenadores:
    - 
     id: 4
@@ -63,7 +63,7 @@
 
 -
   nome: "Arquitetura de Infraestrutura"
-  descricao: "Conteúdo com foco na área de Infraestrutura de tecnologia, operação de sistemas, DevOps, Arquitetura de Cloud, containers, etc."
+  descricao: "A forma de lidar com infraestrutura evoluiu muito nos últimos anos, tornando a área mais desafiadora do que jamais foi. Os recursos que hoje temos para viabilizar gestão de infra com elasticidade e custo efetivo sem abrir mão da segurança não envolvem apenas conhecimento de redes, hardware e sistemas operacionais, mas também conceitos de DevOps, Nuvens públicas e híbridas, Containers, Infraestrutura como Código. Como arquitetar soluções de infra de forma moderna e adequada é o que iremos abordar nessa trilha, trazendo palestrantes renomados e debates atuais para a pauta."
   coordenadores:
    - 
     id: 6
