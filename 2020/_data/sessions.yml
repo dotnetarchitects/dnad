@@ -1,4 +1,10 @@
 -  
+  id: 000
+  title: "A definir"
+  description: "A definir"
+  subtype: presentation
+  speakers: [0]
+-  
   id: 001
   title: "A arquitetura de um MMO: como funciona um game server distribuído?"
   description: "Em um mundo transformado por uma pandemia global, as pessoas passaram a sair menos de casa, o que acarretou um aumento significativo do interesse por soluções de treinamento físico em casa. Zwift é uma dessas soluções: uma plataforma de treinamento que estreita a fronteira entre o que é esporte e eSport. Nesta palestra, será apresentada uma visão geral de soluções de arquitetura que possibilitam o Zwift funcionar como um Single World Instance MMO, conectando uma enorme quantidade de jogadores simultâneos ao redor do mundo."
@@ -24,10 +30,22 @@
   speakers: [4]
 -  
   id: 005
-  title: "A definir"
-  description: "A definir"
+  title: "Torne-se um arquiteto de Open Hybrid Cloud"
+  description: "Cloud Native? Kubernetes Native? Multi Cloud? On premises? Nuvem pública? Nuvem privada? Se já era difícil arquitetar soluções com o nosso velho e querido monolito, agora ficou bem mais complicado. Mas se você quiser algumas dicas de como seguir um caminho entre as tempestades provocadas pelas nuvem, assista esta palestra. Venha conhecer como soluções Open Source podem permitir que você distribua dados e aplicações em diversos ambientes possíveis, permitindo que você crie o equilíbrio entre obter o máximo de vantagens de cada nuvem, e ao mesmo tempo tendo portabilidade suficiente para migrar por questões regulatórios, de custo, ou de disponibilidade."
   subtype: presentation
   speakers: [5]
+-  
+  id: 006
+  title: "Descomplicando o Vault"
+  description: "Nós vamos falar sobre o Hashicorp Vault, ferramenta super necessária para armazenar os seus dados confidenciais de maneira segura e com alta disponibilidade! Utilizando o Vault, você não precisa mais expor os seus secrets como variáveis em seus pipelines ou em arquivos de configuração. Dificuldades em armazenar os seus secrets? Os seus problemas acabaram! :)"
+  subtype: presentation
+  speakers: [6]
+-  
+  id: 007
+  title: "Preparando sua infraestrutura para suportar uma Black-Friday"
+  description: "Esta sessão vai abordar as lições aprendidas com vários clientes de grande porte na preparação de ambientes de Black-Friday em  cenários de nuvem pública e nuvem híbrida."
+  subtype: presentation
+  speakers: [7]
 -  
   id: 100
   title: "Abertura"

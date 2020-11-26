@@ -15,12 +15,12 @@
     - {
       startTime: "14:20",
       endTime: "15:00",
-      sessionIds: [001, 005, 005, 005]
+      sessionIds: [001, 000, 005, 000]
     }
     - {
       startTime: "15:00",
       endTime: "15:40",
-      sessionIds: [002, 005, 005, 005]
+      sessionIds: [002, 000, 006, 000]
     }
     - {
     	startTime: "15:40",
@@ -30,15 +30,15 @@
     - {
       startTime: "16:00",
       endTime: "16:40",
-      sessionIds: [003, 005, 005, 005]
+      sessionIds: [003, 000, 007, 000]
     }
     - {
       startTime: "16:40",
       endTime: "17:20",
-      sessionIds: [004, 005, 005, 005]
+      sessionIds: [004, 000, 000, 000]
     }
     - {
       startTime: "17:20",
       endTime: "18:00",
-      sessionIds: [005, 005, 005, 005]
+      sessionIds: [005, 000, 000, 000]
     }
