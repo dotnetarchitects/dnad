@@ -44,10 +44,10 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-#  - {permalink: "/schedule/", text: "Agenda"}
-#  - {permalink: "/speakers/", text: "Palestrantes"}
  - {permalink: "/team/", text: "Organização"}
  - {permalink: "/trilhas/", text: "Trilhas"}
+ - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
  - {permalink: "/cod/", text: "Código de Conduta"}
 bottomNavigationLinks:
  - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
