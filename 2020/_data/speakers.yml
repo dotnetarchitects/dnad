@@ -63,7 +63,7 @@
   thumbnailUrl: jefersonfernando.jpg
   rockstar: true
   social: 
-    - {name: "twitter", link: "twitter.com/badtux_/"}
+    - {name: "twitter", link: "https://twitter.com/badtux_/"}
 - 
   id: 7
   name: "Fabio"
