@@ -1,10 +1,43 @@
+-  
   id: 001
-  title: "Em Breve"
-  description: "Em Breve"
+  title: "A arquitetura de um MMO: como funciona um game server distribuído?"
+  description: "Em um mundo transformado por uma pandemia global, as pessoas passaram a sair menos de casa, o que acarretou um aumento significativo do interesse por soluções de treinamento físico em casa. Zwift é uma dessas soluções: uma plataforma de treinamento que estreita a fronteira entre o que é esporte e eSport. Nesta palestra, será apresentada uma visão geral de soluções de arquitetura que possibilitam o Zwift funcionar como um Single World Instance MMO, conectando uma enorme quantidade de jogadores simultâneos ao redor do mundo."
   subtype: presentation
-  speakers: [3, 6]
-  language: en
-  complexity: "Intermediate"
+  speakers: [1]
+-  
+  id: 002
+  title: "Sobre post-mortens: oportunidades de aprender com os erros alheios e um case de spam"
+  description: "Se algo pode dar errado, dará - da pior maneira, no pior momento e causando o maior dano possível, diz Murphy. Em processo complexos e com tantos pontos de falha como desenvolvimento de software, por mais que tenhamos contingências, planejamento e redundâncias, estamos constantemente lidando com erros inesperados. Essa palestra discorrerá sobre o que podemos fazer para aprender com estes erros, multiplicar o aprendizado com nossos pares e aumentar a robustez de nossos sistemas. Como case de exemplo, vou falar do dia em que mandamos mais de cem e-mails repetidos para usuários do Stack Overflow for Teams, explicando todo o processo de identificação do problema, correção e post-mortem."
+  subtype: presentation
+  speakers: [2]
+-  
+  id: 003
+  title: "Começando uma aplicação orientada a eventos"
+  description: "Aplicações orientadas a eventos estão cada vez mais em evidência, no entanto as técnicas de modelagem voltadas para esse paradigma ainda estão evoluindo. Vou mostrar algumas abordagens adotadas e como um novo sistema seguindo os conceitos de event sourcing e cqrs pode emergir."
+  subtype: presentation
+  speakers: [3]
+-  
+  id: 004
+  title: "Evitando o declínio arquitetural de suas aplicações na velocidade de desenvolvimento"
+  description: "Era uma vez... Alguém experiente que olhou para o código e desenhou alguns diagramas para a arquitetura do sistema, evidenciando seus componentes e como eles deveriam interagir. Depois de um tempo, o projeto ficou maior, os casos de uso mais complexos; novos desenvolvedores entraram e os antigos desistiram; novos recursos eram simplesmente adicionados de qualquer maneira que se encaixasse. De repente tudo dependia de tudo e cada mudança causava um efeito imprevisível sobre outros componentes… Isso lhe soa familiar? Não se preocupe, ela é mais comum do que você imagina. Venha comigo nesta palestra para juntos encontramos um final alternativo para essa estória."
+  subtype: presentation
+  speakers: [4]
+-  
+  id: 005
+  title: "A definir"
+  description: "A definir"
+  subtype: presentation
+  speakers: [5]
+-  
+  id: 100
+  title: "Abertura"
+  description: "Abertura do evento"
+  subtype: presentation
+-  
+  id: 101
+  title: "Intervalo"
+  description: "Intervalo"
+  subtype: presentation
 # -
 #   id: 002
 #   title: "Building Cloud-powered wearable Apps"

@@ -1,49 +1,40 @@
 - 
-  id: 3
-  name: "Em"
-  surname: "Breve"
-  company: "--"
-  title: "--"
-  bio: "--"
-  thumbnailUrl: person.svg
-  rockstar: true
+  id: 1
+  name: "Juan"
+  surname: "Lopes"
+  company: "Zwift"
+  bio: "Juan é Software Engineer na Zwift (no time de Game Platform), mestre em Ciências Computacionais pela UERJ, apaixonado por competições de algoritmos. E pai do Miguel."
+  thumbnailUrl: juanlopes.jpg
   social: 
-    - {name: "twitter", link: "https://twitter.com/"}
+    - {name: "twitter", link: "https://twitter.com/juanplopes"}
+- 
+  id: 2
+  name: "Roberta"
+  surname: "Arcoverde"
+  company: "Stack Overflow"
+  bio: "Desenvolvedora de software desde 2005, recifense radicada em São Paulo. Mestre em Informática pela PUC-Rio e bacharela em Ciência da Computação pela UFPE. Desde 2014 integro o time de desenvolvedores do Stack Overflow, atuando como  Tech Lead do Stack Overflow for Teams. Também sou co-host do podcast de tecnologia Hipsters.tech."
+  thumbnailUrl: robertaarcoverde.jpg
+  social: 
+    - {name: "twitter", link: "https://twitter.com/rla4"}
+- 
+  id: 3
+  name: "Fabricio"
+  surname: "Doi"
+  bio: "Engenheiro, desenvolvedor de software há 18 anos, amante de tecnologia e de ideias empreendedoras."
+  thumbnailUrl: fabriciodoi.jpeg
+  social: 
+    - {name: "twitter", link: "https://twitter.com/frenezabr"}
 - 
   id: 4
-  name: "Em"
-  surname: "Breve"
-  company: "--"
-  title: "--"
-  bio: "--"
-  thumbnailUrl: person.svg
-  rockstar: true
+  name: "Yan"
+  surname: "Justino"
+  company: "XP Inc."
+  bio: "Profissional focado na adoção de boas práticas de engenharia de software; 20 anos de experiência dedicados à construção de soluções corporativas. Atualmente, estou engenheiro de software sênior na XP Inc., desenvolvendo soluções orientadas a serviços para área de seguros. Além disso, possuo mestrado em Engenharia de Software pelo programa de pós-graduação em Engenharia de Software (PPgSW), vinculado ao Instituto Metrópole Digital (IMD/UFRN)."
+  thumbnailUrl: yanjustino.png
   social: 
-    - {name: "twitter", link: "https://twitter.com/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/yanjustino/"}
 - 
   id: 5
-  name: "Em"
-  surname: "Breve"
-  company: "--"
-  title: "--"
-  bio: "--"
-  thumbnailUrl: person.svg
-  rockstar: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/"}
-- 
-  id: 6
-  name: "Em"
-  surname: "Breve"
-  company: "--"
-  title: "--"
-  bio: "--"
-  thumbnailUrl: person.svg
-  rockstar: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/"}
-- 
-  id: 7
   name: "Em"
   surname: "Breve"
   company: "--"
