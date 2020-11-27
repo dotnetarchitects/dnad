@@ -60,7 +60,7 @@
   surname: "Fernando"
   company: "LinuxTips"
   bio: "Grande entusiasta Linux, de containers e da cultura DevOps. Escritor, palestrante e fundador do canal no Youtube LINUXtips. Empreendedor e amante de uma boa IPA."
-  thumbnailUrl: jefersonfernando.jpg
+  thumbnailUrl: jeferson.jpg
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/badtux_/"}
