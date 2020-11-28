@@ -51,7 +51,6 @@
   company: "RedHat"
   bio: "Edson Yanaga, Diretor de Experiência do Desenvolvedor da Red Hat, é Java Champion e Microsoft MVP. Também é um autor reconhecido internacionalmente e palestrante frequente em eventos internacionais, discutindo Java, Kubernetes, Quarkus, Microsserviços, Computação em Nuvem, e DevOps. Yanaga acredita que tudo o que fazemos, pouco ou muito, faz diferença - e que todos nós desenvolvedores podemos criar um mundo melhor para as pessoas através de software melhor. Seu propósito de vida é entregar software bom e ajudar desenvolvedores do mundo todo a entregar software melhor cada vez mais rápido e de modo mais confiável. Hoje seu trabalho, seu hobby e seu objetivo de vida são uma coisa só: e é feliz por ter encontrado o seu Ikigai."
   thumbnailUrl: edsonyanaga.jpg
-  rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/yanaga/"}
 - 
@@ -61,7 +60,6 @@
   company: "LinuxTips"
   bio: "Grande entusiasta Linux, de containers e da cultura DevOps. Escritor, palestrante e fundador do canal no Youtube LINUXtips. Empreendedor e amante de uma boa IPA."
   thumbnailUrl: jeferson.jpg
-  rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/badtux_/"}
 - 
@@ -71,6 +69,23 @@
   company: "Microsoft"
   bio: "Fabio Hara é Sr Cloud Solution Architect e atua com projetos de infraestrutura e segurança para clientes de varejo e serviços. Trabalha na Microsoft desde 2007 e já passou por várias areas como marketing, engenharia e times de produto."
   thumbnailUrl: fabiohara.jpg
-  rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/fabiohara/"}
+- 
+  id: 8
+  name: "Tatiana"
+  surname: "Scarpioni"
+  company: "Salesforce"
+  bio: "Tatiana Scarpioni, Technical Architect na Salesforce. Possui 20 anos de experiência em tecnologia em diversos segmentos como:  Setor Financeiro, Seguros, Varejo e empresas de tecnologia. Atualmente Arquiteta Técnica na Salesforce atuando em projetos de transformação digital. É fundadora da comunidade TheFemTech, que tem como objetivo empoderar, informar e promover a equidade de gênero na Tecnologia."
+  thumbnailUrl: tatiana.jpg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/tatiana-scarpioni/"}
+- 
+  id: 9
+  name: "Tatiana"
+  surname: "Scarpioni"
+  company: "Salesforce"
+  bio: "Tatiana Scarpioni, Technical Architect na Salesforce. Possui 20 anos de experiência em tecnologia em diversos segmentos como:  Setor Financeiro, Seguros, Varejo e empresas de tecnologia. Atualmente Arquiteta Técnica na Salesforce atuando em projetos de transformação digital. É fundadora da comunidade TheFemTech, que tem como objetivo empoderar, informar e promover a equidade de gênero na Tecnologia."
+  thumbnailUrl: tatiana.jpg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/tatiana-scarpioni/"}

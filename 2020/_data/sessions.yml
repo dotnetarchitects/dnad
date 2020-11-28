@@ -47,6 +47,12 @@
   subtype: presentation
   speakers: [7]
 -  
+  id: 008
+  title: "Uma viagem pelos principais padrões de integração de aplicações"
+  description: "As aplicações,  hoje, raramente vivem isoladas. Cada vez mais pensamos em acessos instantâneos a todas as funcionalidades que são fornecidas por aplicativos , sistemas e  serviços em um ambiente tecnológico diversificado, de diferentes épocas, com plataformas distintas, com tecnologias diversas, usando diferentes tipos de protocolos em infraestrutura Cloud ou On-Premisses ou híbrida. Como podemos usar os padrões de integração pra resolver estas questões num contexto, cada vez mais forte e necessário, para a transformação digital nas empresas. Falaremos sobre qual a motivação para a existência de integrações, aspectos a considerar em integrações e quais principais abordagens utilizadas."
+  subtype: presentation
+  speakers: [8]
+-  
   id: 100
   title: "Abertura"
   description: "Abertura do evento"
