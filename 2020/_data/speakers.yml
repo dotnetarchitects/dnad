@@ -82,10 +82,106 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/tatiana-scarpioni/"}
 - 
   id: 9
-  name: "Tatiana"
-  surname: "Scarpioni"
-  company: "Salesforce"
-  bio: "Tatiana Scarpioni, Technical Architect na Salesforce. Possui 20 anos de experiência em tecnologia em diversos segmentos como:  Setor Financeiro, Seguros, Varejo e empresas de tecnologia. Atualmente Arquiteta Técnica na Salesforce atuando em projetos de transformação digital. É fundadora da comunidade TheFemTech, que tem como objetivo empoderar, informar e promover a equidade de gênero na Tecnologia."
-  thumbnailUrl: tatiana.jpg
+  name: "Everson"
+  surname: "Martins"
+  company: "Klabin"
+  bio: "Graduado pela FIAP, é atualmente Coordenador de Arquitetura Corporativa na Klabin e esta na empresa a mais de 25 anos onde atuou em diversas áreas relacionadas a tecnologia. Coordenador do ASUG Brasil, focado em pesquisas e BI"
+  thumbnailUrl: eversonmartins.jpeg
   social: 
-    - {name: "linkedin", link: "https://www.linkedin.com/in/tatiana-scarpioni/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/everson-martins-120aa933/"}
+- 
+  id: 10
+  name: "Marcelo"
+  surname: "Costa"
+  company: "Klabin"
+  bio: "Marcelo Costa é pós-graduado em Engenharia de Software pela UNICAMP. Atua em sistemas de alta complexidade desde 2002, liderando equipes multidisciplinares no desenvolvimento de soluções de software nas áreas de papel e celulose, varejo, aeroespacial, logística, educação, saúde e finanças. Especializa-se em liderança de equipes e arquiteturas de soluções, na coleta inteligente de informações na Internet e de conteúdo eletronicamente disponível; atualmente é Especialista de TI em Arquitetura de Soluções na Klabin, Editor no InfoQ Brasil e Confluent Community Catalyst 20/21"
+  thumbnailUrl: marcelocosta.jpg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/marcelojscosta/"}
+- 
+  id: 11
+  name: "Marco Antônio"
+  surname: "Leite"
+  company: "Safra"
+  bio: "Gerente de Arquitetura de Soluções e Arquitetura de Dados do banco Safra. Trabalhando na área de TI por cerca de 35 anos, 15 anos trabalhando em Arquitetura de TI e a 23 anos na indústria financeira. Atuou na área de TI dos maiores bancos do Brasil e do Mundo: Bradesco, Itau, Citibank, Santander e Safra. Com sólidos conhecimentos funcionais em Negócios Bancários."
+  thumbnailUrl: marcoantonio.png
+- 
+  id: 12
+  name: "Bruno"
+  surname: "Guedes"
+  company: "Safra"
+  bio: "Arquiteto de dados com 20 anos de experiência em tecnologia. Ao longo de sua trajetória, trabalhou com desenvolvimento de sistemas para diferentes indústrias. Nos últimos 10 anos, especializou-se em arquitetura corporativa, atuando especificamente em gestão do conhecimento, gestão de metadados e no gerenciamento de portfólio de sistemas no setor financeiro. Bruno passou por grandes organizações, como Tivit e Fast/Microsoft, e posteriormente no Santander e Banco Safra, onde trabalha atualmente. Ele é formado em Análise de Sistemas pela Universidade Estácio de Sá e possui MBA em Gestão da Tecnologia da Informação pela Fundação Instituto de Administração (FIA)."
+  thumbnailUrl: brunoguedes.png
+- 
+  id: 13
+  name: "Douglas"
+  surname: "Oliveira"
+  company: "Safra"
+  bio: "Douglas Oliveira é Cientista da Computação, com pós-graduações na área de Big Data e Ciência de Dados e passagens por empresas de tecnologia. Atualmente é Mestrando em Inteligência Artificial na USP e Arquiteto de Soluções no Banco Safra."
+  thumbnailUrl: douglasoliveira.png
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/daoliveirax/"}
+- 
+  id: 14
+  name: "Karina"
+  surname: "Varela"
+  company: "Red Hat"
+  bio: "Tornei-me um entusiasta da transformação digital por meio da automação comercial. Desde 2016, tenho ajudado os clientes a identificar, arquitetar, implementar, implantar e solucionar problemas de processos e regras de negócios seguindo as melhores práticas e os conceitos de tecnologia mais recentes."
+  thumbnailUrl: karinavarela.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/kmacedovarela/"}
+- 
+  id: 15
+  name: "Atila"
+  surname: "Belloquim"
+  company: "Gnosis"
+  bio: "Gnosis IT Knowledge Solutions Sócio Diretor"
+  thumbnailUrl: atila.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/atilabelloquim/"}
+- 
+  id: 16
+  name: "Bruno"
+  surname: "Sperendio"
+  company: "Livelo Brasil"
+  bio: "Mais de 10 anos de experiência na liderança de áreas de negócios e TI com estratégia de TI e arquitetura empresarial. Possui graduação em Engenharia Elétrica com ênfase em Ciência da Computação (POLI-USP), Pós-Graduação em Administração de Empresas (Insper), Pós-Graduação em Gestão de Projetos (Insper) e Programa de Gestão Executiva em Estratégia Empresarial e Desempenho Financeiro (INSEAD)"
+  thumbnailUrl: bruno.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/bruno-sperendio-424ab212/"}
+
+- 
+  id: 17
+  name: "Lilian"
+  surname: "Santos"
+  company: "Sensedia"
+  bio: "Lilian é graduada pela UFPR, atua desde 2006 com sistemas SAP, iniciou como arquiteta coorporativa na Stefanini em 2015 e atualmente esta na empresa Sensedia."
+  thumbnailUrl: lilian.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/lilian-santos-4239b443/"}
+- 
+  id: 18
+  name: "João"
+  surname: "Bosco"
+  company: "Itaú"
+  bio: "MBA em gestão empresarial pela FGV e formado em computação. Atua promovendo transformação de equipes e empresas na área de tecnologia e desenvolvimento de software. Apaixonado por tecnologia, inovação e futurismo. Especialista em arquitetura de software com experiência em sistemas de alta complexidade, microservices e plataformas em cloud. Atualmente é Atualmente é Especialista em arquitetura de soluções digitais no Banco Itau S.A."
+  thumbnailUrl: joaobosco.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/joaoboscoseixas/"}
+- 
+  id: 19
+  name: "Marco"
+  surname: "Aurelio"
+  company: "Itaú"
+  bio: "Casado, pai de uma filha pequena, apaixonado por tecnologia e métodos ágeis e autodidata. Sou um profissional de software com mais de 15 anos de experiência. Tenho interesse em aprendizado de máquina, automação de devops, arquitetura de microsserviços e transformação digital."
+  thumbnailUrl: marcoaurelio.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/marcoaurelioso/"}
+- 
+  id: 20
+  name: "Vanessa"
+  surname: "Valle"
+  company: "TIVIT"
+  bio: "Vanessa Valle é Arquiteta de soluções na Tivit, Microsoft MVP. Desenvolvedora há mais de 15 anos em .Net e C #. Já trabalhou em várias cidades pelo Brasil: Salvador, Recife, Rio Grande e atualmente Rio de Janeiro. Apaixonada pelo mundo do desenvolvimento e esta sempre estudando as últimas novidades do mercado. Coordenadora do Projeto She Sharp Rio, que atende e prepara mulheres que desejam entrar no mercado de tecnologia. Adora compartilhar códigos e conhecimento,  palestrante na DevelopersBR e na TDC. Encontre ela no youtube no canal Nerd All Debug e no blog."
+  thumbnailUrl: vanessavalle.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/vanessabrava/"}

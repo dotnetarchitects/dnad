@@ -53,6 +53,36 @@
   subtype: presentation
   speakers: [8]
 -  
+  id: 009
+  title: "Uma Arquitetura Corporativa Data-Driven baseada em Apache Kafka, o Case Klabin."
+  description: "Como uma das maiores indústrias de papel do mundo está se reinventando e construíndo uma arquitetura data-driven interligando as suas mais de 22 fábricas com tecnologias baseadas em Apache Kafka e quais lições foram aprendidas nos últimos 12 meses desta jornada."
+  subtype: presentation
+  speakers: [9, 10]
+-  
+  id: 010
+  title: "Como definir uma estratégia de gestão de obsolescência tecnológica"
+  description: "Do início ao fim, uma sugestão de como se definir uma estratégia para gestão da obsolescência do seu parque tecnológico."
+  subtype: presentation
+  speakers: [11, 12, 13]
+-  
+  id: 011
+  title: "Conceitos e práticas arquiteturais que você precisa saber hoje para sobreviver aos próximos cinco anos"
+  description: "Se você fosse criar uma aplicação hoje, por onde você começaria? Você seguiria uma hype ou optaria pelo bom e velho framework que você já conhece a anos? Como implementaria as regras de negócio? Monolito ou Microsserviços? Usaria containers e cloud ou optaria por um deploy tradicional? E o CI/CD? Não existe resposta pronta para nenhuma destas perguntas. Para se descobrir como definir estas respostas, vamos atacar um problema de negócio e resolvê-lo com base em conceitos de DDD e Clean Architecture, e com a utilização de uma stack cloud-native moderna. Teremos um ponto de vista arquitetural e de liderança técnica, compartilhando dicas de como sair dos requisitos (papeis) para a cloud."
+  subtype: presentation
+  speakers: [14]
+-  
+  id: 012
+  title: "Arquitetura é Negócio, e não TI"
+  description: ""
+  subtype: presentation
+  speakers: [15]
+-  
+  id: 013
+  title: "Painel"
+  description: "O futuro da Arquitetura Coorporativa"
+  subtype: presentation
+  speakers: [16, 17, 18, 19, 20]
+-  
   id: 100
   title: "Abertura"
   description: "Abertura do evento"
