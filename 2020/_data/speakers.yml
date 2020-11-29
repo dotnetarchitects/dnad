@@ -185,3 +185,39 @@
   thumbnailUrl: vanessavalle.jpeg
   social: 
     - {name: "linkedin", link: "https://www.linkedin.com/in/vanessabrava/"}
+- 
+  id: 21
+  name: "Fabio"
+  surname: "Gouw"
+  company: "Itaú"
+  bio: "Com mais de 17 anos de experiência na área de desenvolvimento e arquitetura de sistemas, a maioria trabalhando com a plataforma .NET, hoje atuo no time de arquitetura de soluções de uma grande instituição financeira."
+  thumbnailUrl: fabiogouw.jpeg
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/fabiogouw/"}
+- 
+  id: 22
+  name: "Rodrigo"
+  surname: "Tadewald"
+  company: "Azimov Trading"
+  bio: "Formado em Engenharia Química pela UFRGS, possui mais de 5 anos de experiência aplicando técnicas de ciência de dados e Machine Learning para o mercado financeiro. É sócio fundador da Asimov Trading, empresa especializada no desenvolvimento de estratégias quantitativas automatizadas de alta frequência para os principais instrumentos do mercado financeiro."
+  thumbnailUrl: rodrigotadewald.jpeg
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/rodrigo-soares-tadewald-650605125/"}
+- 
+  id: 23
+  name: "Rafael"
+  surname: "Cruz"
+  company: "XP Inc."
+  bio: "Rafael Cruz é desenvolvedor .net há mais de 18 anos, Most Valuable Profissional (MVP),  Instrutor Oficial Microsoft (MCT), atualmente trabalha como líder de desenvolvimento de sistema, fundador do meetup Coders In Rio, palestrantes em eventos tecnológicos como The Developer Conference, Visual Studio Summit, MVP Conference, tem um blog (rafaelcruz.dev) para ajudar pessoas e compartilhar experiências na área de desenvolvimento Web, Aplicativos Móveis e Cloud Solutions."
+  thumbnailUrl: rafaelcruz.jpeg
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/rafaelcruzmvp/"}
+- 
+  id: 24
+  name: "Juliano"
+  surname: "Alves"
+  company: "Broad"
+  bio: "Juliano é especializado em Engenharia de Software pela PUC-SP e considera desenvolver software uma arte. Entusiasta da comunidade open-source, acredita profundamente que o futuro pertence aos programadores funcionais e poliglotas. Hoje vive em Londres e assumiu a tecnologia da Broad, um produto que vai facilitar a vida financeira do brasileiro."
+  thumbnailUrl: julianoalves.png
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/rafaelcruzmvp/"}

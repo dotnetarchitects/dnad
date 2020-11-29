@@ -83,6 +83,30 @@
   subtype: presentation
   speakers: [16, 17, 18, 19, 20]
 -  
+  id: 014
+  title: "Usando Spark com .NET"
+  description: "O Apache Spark é uma plataforma muito importante no mundo de Big Data, com casos de uso variando de processamento de streaming a machine learning. Até pouco tempo atrás, as linguagens de programação disponíveis para interagir com essa ferramenta não incluíam o C#, mas isso mudou com a criação dos bindings para .NET!"
+  subtype: presentation
+  speakers: [21]
+-  
+  id: 015
+  title: "Gestão de Big Data para dados financeiros com Apacha Parquet"
+  description: "Uma arquitetura eficiente para I/O de dados é imprescindível para o bom desempenho de qualquer equipe de Data Science. Na Asimov Trading, deixamos de lado soluções comerciais especializadas em problemas de Big Data para séries temporais, como PostGreSql + TimeScale, MongoDB + Arctic e Amazon TimeStream e desenvolvemos uma solução própria baseada em Apache Parquet e PyArrow. Tal arquitetura permitiu ganhos significativos em taxas de leituras para Python e compressão."
+  subtype: presentation
+  speakers: [22]
+-  
+  id: 016
+  title: "ORM para DBAs, o que não te contaram!"
+  description: "ORM são as dores de cabeças para muitos DBAs. Eles facilitam muito a vida dos desenvolvedores mas tornam a vida dos DBAs um inferno. Nesta sessão vou contar os segredos dos ORM, especialmente o Entity Framework e o NHibernate e ajudar a você, DBA, a lidar com situações do dia a dia. Nesta sessão vamos falar sobre o que é um ORM, porque eles são tão produtivos e como utilizar de forma errada transforma a vida dos DBAs um inferno. Vamos mostrar caso de performance de querys e bons usos destes ORMs famosos na comunidade de desenvolvedores .NET."
+  subtype: presentation
+  speakers: [23]
+-  
+  id: 017
+  title: "Usando Kafka como fonte da verdade"
+  description: "Mutabilidade é a raiz de todo o mal. Muitas soluções foram adotadas com o passar dos anos para lidar com esse problema, tal qual programação funcional e infraestrutura imutável. Porém, quando falamos sobre como estruturar dados, ainda são utilizadas as mesmas bases da dados, as quais permitem inconsistências e altamente propensas a falhas. Essa palestra vai mostrar que Apache Kafka pode ser usado não apenas para comunicação entre serviços, mas como uma poderosa base de dados: imutável, consistente e performática. A espinha dorsal e fonte da verdade em um sistema."
+  subtype: presentation
+  speakers: [24]
+-  
   id: 100
   title: "Abertura"
   description: "Abertura do evento"
