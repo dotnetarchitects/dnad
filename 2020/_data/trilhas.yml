@@ -48,7 +48,7 @@
     id: 4
     name: "Thiago"
     surname: "Candido"
-    thumbnailUrl: thiago.png
+    thumbnailUrl: thiago.jpg
     miniBio: "AI Lead, Engineer, and Practitioner | IT Executive | Consultant"
     social: 
       - {name: "linkedin", link: "https://www.linkedin.com/in/tgcandido"}
@@ -69,7 +69,7 @@
     id: 6
     name: "Vinicius"
     surname: "Martinez"
-    thumbnailUrl: martinez.png
+    thumbnailUrl: martinez.jpg
     miniBio: "Formado em Processamento de Dados pela FATEC de Santos, Pós Graduado em Arquitetura de Sistemas Distribuídos pela PUC Minas Gerais e com MBA em Gestão Empresarial pela Fundação Getúlio Vargas, Vinicius Martinez possui mais de 15 anos de experiência no mercado de TI atuando no desenvolvimento, implementação e arquitetura de sistemas e soluções de missão crítica para diversos segmentos do mercado. Atuou em empresas como EDS, TATA e atualmente é Arquiteto de Soluções Senior e Líder Técnico do time de Midddleware da Red Hat Brasil com foco em temas relacionados à Cloud, Middleware, DevOps e Adoção de Estratégias de Nuvem Híbrida."
     social: 
       - {name: "linkedin", link: "https://www.linkedin.com/in/vinicius-martinez-62716014/"}
@@ -77,7 +77,7 @@
     id: 7
     name: "Grazi"
     surname: "Bonizi"
-    thumbnailUrl: grazi.png
+    thumbnailUrl: grazi.jpg
     miniBio: "Consultora DevOps, apóio empresas durante seu processo de transformação digital com princípios, ferramentas e práticas DevOps. Eu compartilho conteúdo de tecnologia via artigos, podcasts, meetups e conferências, normalmente sobre Arquitetura de Software, Domain Driven Design, DevOps, Docker e Kubernetes."
     social: 
       - {name: "twitter", link: "https://twitter.com/GraziBonizi"}

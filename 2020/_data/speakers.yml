@@ -41,7 +41,7 @@
   surname: "Justino"
   company: "XP Inc."
   bio: "Profissional focado na adoção de boas práticas de engenharia de software; 20 anos de experiência dedicados à construção de soluções corporativas. Atualmente, estou engenheiro de software sênior na XP Inc., desenvolvendo soluções orientadas a serviços para área de seguros. Além disso, possuo mestrado em Engenharia de Software pelo programa de pós-graduação em Engenharia de Software (PPgSW), vinculado ao Instituto Metrópole Digital (IMD/UFRN)."
-  thumbnailUrl: yanjustino.png
+  thumbnailUrl: yanjustino.jpg
   social: 
     - {name: "linkedin", link: "https://www.linkedin.com/in/yanjustino/"}
 - 
@@ -104,21 +104,21 @@
   surname: "Leite"
   company: "Safra"
   bio: "Gerente de Arquitetura de Soluções e Arquitetura de Dados do banco Safra. Trabalhando na área de TI por cerca de 35 anos, 15 anos trabalhando em Arquitetura de TI e a 23 anos na indústria financeira. Atuou na área de TI dos maiores bancos do Brasil e do Mundo: Bradesco, Itau, Citibank, Santander e Safra. Com sólidos conhecimentos funcionais em Negócios Bancários."
-  thumbnailUrl: marcoantonio.png
+  thumbnailUrl: marcoantonio.jpg
 - 
   id: 12
   name: "Bruno"
   surname: "Guedes"
   company: "Safra"
   bio: "Arquiteto de dados com 20 anos de experiência em tecnologia. Ao longo de sua trajetória, trabalhou com desenvolvimento de sistemas para diferentes indústrias. Nos últimos 10 anos, especializou-se em arquitetura corporativa, atuando especificamente em gestão do conhecimento, gestão de metadados e no gerenciamento de portfólio de sistemas no setor financeiro. Bruno passou por grandes organizações, como Tivit e Fast/Microsoft, e posteriormente no Santander e Banco Safra, onde trabalha atualmente. Ele é formado em Análise de Sistemas pela Universidade Estácio de Sá e possui MBA em Gestão da Tecnologia da Informação pela Fundação Instituto de Administração (FIA)."
-  thumbnailUrl: brunoguedes.png
+  thumbnailUrl: brunoguedes.jpg
 - 
   id: 13
   name: "Douglas"
   surname: "Oliveira"
   company: "Safra"
   bio: "Douglas Oliveira é Cientista da Computação, com pós-graduações na área de Big Data e Ciência de Dados e passagens por empresas de tecnologia. Atualmente é Mestrando em Inteligência Artificial na USP e Arquiteto de Soluções no Banco Safra."
-  thumbnailUrl: douglasoliveira.png
+  thumbnailUrl: douglasoliveira.jpg
   social: 
     - {name: "linkedin", link: "https://www.linkedin.com/in/daoliveirax/"}
 - 
@@ -218,6 +218,6 @@
   surname: "Alves"
   company: "Broad"
   bio: "Juliano é especializado em Engenharia de Software pela PUC-SP e considera desenvolver software uma arte. Entusiasta da comunidade open-source, acredita profundamente que o futuro pertence aos programadores funcionais e poliglotas. Hoje vive em Londres e assumiu a tecnologia da Broad, um produto que vai facilitar a vida financeira do brasileiro."
-  thumbnailUrl: julianoalves.png
+  thumbnailUrl: julianoalves.jpg
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/rafaelcruzmvp/"}
