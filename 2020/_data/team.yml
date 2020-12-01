@@ -34,3 +34,12 @@
   miniBio: "Consultora DevOps, apóio empresas durante seu processo de transformação digital com princípios, ferramentas e práticas DevOps. Eu compartilho conteúdo de tecnologia via artigos, podcasts, meetups e conferências, normalmente sobre Arquitetura de Software, Domain Driven Design, DevOps, Docker e Kubernetes."
   social: 
     - {name: "twitter", link: "https://twitter.com/GraziBonizi"}
+- 
+  id: 5
+  name: "Leandro"
+  surname: "Daniel"
+  thumbnailUrl: leandro.jpeg
+  team: true
+  miniBio: "Dad, husband, systems architect, developer and amateur musician"
+  social: 
+    - {name: "twitter", link: "https://twitter.com/leandronet"}
