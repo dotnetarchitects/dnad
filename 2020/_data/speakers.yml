@@ -31,6 +31,7 @@
   id: 3
   name: "Fabricio"
   surname: "Doi"
+  company: "Digio / Opus Software"
   bio: "Engenheiro, desenvolvedor de software há 18 anos, amante de tecnologia e de ideias empreendedoras."
   thumbnailUrl: fabriciodoi.jpeg
   social: 
@@ -221,3 +222,12 @@
   thumbnailUrl: julianoalves.jpg
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/rafaelcruzmvp/"}
+- 
+  id: 25
+  name: "Letticia"
+  surname: "Nicoli"
+  company: "Nubank"
+  bio: "Engenheira de Software, Microsoft MVP, Xamarin Certified Mobile Developer, MTAC e Organizadora do High5Devs. Adepta às boas práticas ágeis e novas tecnologias busca compartilhar seus conhecimentos na área para empoderar mais e mais pessoas."
+  thumbnailUrl: leticia.jpg
+  social:
+    - {name: "twitter", link: "https://mobile.twitter.com/LetticiaNicoli"}
