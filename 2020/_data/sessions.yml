@@ -78,8 +78,8 @@
   speakers: [15]
 -  
   id: 013
-  title: "Painel"
-  description: "O futuro da Arquitetura Coorporativa"
+  title: "O futuro da Arquitetura Coorporativa"
+  description: "Painel"
   subtype: presentation
   speakers: [16, 17, 18, 19, 20]
 -  
@@ -106,6 +106,18 @@
   description: "Mutabilidade é a raiz de todo o mal. Muitas soluções foram adotadas com o passar dos anos para lidar com esse problema, tal qual programação funcional e infraestrutura imutável. Porém, quando falamos sobre como estruturar dados, ainda são utilizadas as mesmas bases da dados, as quais permitem inconsistências e altamente propensas a falhas. Essa palestra vai mostrar que Apache Kafka pode ser usado não apenas para comunicação entre serviços, mas como uma poderosa base de dados: imutável, consistente e performática. A espinha dorsal e fonte da verdade em um sistema."
   subtype: presentation
   speakers: [24]
+-  
+  id: 018
+  title: "Developer Experience no Nubank"
+  description: "Você já ouviu falar sobre Developer Experience? Entenda como provemos uma melhor experiência para as pessoas desenvolvedoras aqui no Nubank e possibilitamos que os times de produtos se concentrem no que é mais importante: liberar novas funcionalidades para nossos clientes, de maneira rápida, consistente e confiável."
+  subtype: presentation
+  speakers: [25]
+-  
+  id: 019
+  title: "Os desafios da infraestrutura moderna"
+  description: "Painel"
+  subtype: presentation
+  speakers: [5, 6, 7, 25]
 -  
   id: 100
   title: "Abertura"
