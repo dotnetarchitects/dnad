@@ -50,9 +50,9 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Palestrantes"}
  - {permalink: "/cod/", text: "Código de Conduta"}
 bottomNavigationLinks:
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
+ - {link: "https://www.sympla.com.br/dnad-2020__1025790", text: "Faça sua inscrição"}
 rightNavigationButtons:
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
+ - {link: "https://www.sympla.com.br/dnad-2020__1025790", text: "Faça sua inscrição"}
 
 # Hero Block
 heroImage: "dnad.svg"
@@ -61,7 +61,6 @@ eventDate: "5 de Dezembro de 2020"
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLScNB-dItNqlEc75TJSRIflYUpPq2UcbyvII5aWUzRZR9XDapw/viewform", text: "Seja um palestrante"}
  - {link: "https://www.sympla.com.br/dnad-2020__1025790", text: "Faça sua inscrição"}
 
 # About Block
