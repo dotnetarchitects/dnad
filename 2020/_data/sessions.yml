@@ -119,6 +119,12 @@
   subtype: presentation
   speakers: [5, 6, 7, 25]
 -  
+  id: 020
+  title: "Estruturando, na prática, um Big Data Pipeline com Azure Synapse Studio"
+  description: "Construir um pipeline de dados para análise é uma tarefa que requer familiaridade com tecnologias de desenvolvimento, serviços, frameworks e suas integrações e, muitas vezes, restrições orçamentárias do negócio. Recentemente, os serviços disponibilizados pelo Azure para lidar com arquiteturas de dados estão cada vez mais acessíveis, fáceis de implementar, além de contar com custos extremamente competitivos. Nessa talk, trabalharemos em uma demo com o Azure Synapse, serviço cloud que unifica os processos de ETL, Machine Learning e apresentação de dados."
+  subtype: presentation
+  speakers: [26, 27]
+-  
   id: 100
   title: "Abertura"
   description: "Abertura do evento"

@@ -231,3 +231,22 @@
   thumbnailUrl: leticia.jpg
   social:
     - {name: "twitter", link: "https://mobile.twitter.com/LetticiaNicoli"}
+
+- 
+  id: 26
+  name: "Thiago"
+  surname: "Candido"
+  thumbnailUrl: thiago.jpg
+  bio: "AI Lead, Engineer, and Practitioner | IT Executive | Consultant"
+  company: "candido.ai"
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/tgcandido"}
+- 
+  id: 27
+  name: "Sulamita"
+  surname: "Dantas"
+  thumbnailUrl: sulamita.jpeg
+  miniBio: "Sulamita Dantas é formada pelo em Ciência da Computação pelo Centro Universitário Unibh. Poussi experiência como Database Administrator SQL Server, Analyst TOTVS e Analyst Business Intelligence. Atualmente é: MVP Data Plataform (Microsoft Most Valuable Professional), Lider do Local Group SQL BH, Co-Organizadora do Grupo Random Hacks ONG MTAC."
+  company: "TOTVS"
+  social: 
+    - {name: "twitter", link: "https://twitter.com/suladantas"}
