@@ -1,6 +1,7 @@
 -
   nome: "Arquitetura Corporativa"
   descricao: "A arquitetura corporativa compete a orquestração entre a implementação e os objetivos de negócio. Processos, integrações, padrões que zelam para que o negócio macro seja bem executado e esteja alinhado para toda a organização. Nesta trilha vamos abordar os desafios que organizações tem enfrentado e qual o futuro para aplicar estratégias para orquestração entre técnologia e negócios quanto a cenários complexos e grandiosos."
+  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/FnuGCL3U-qQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   coordenadores:
    - 
     id: 0
@@ -22,6 +23,7 @@
 -
   nome: "Arquitetura de Aplicações"
   descricao: "Mesmo quando não pensada e desenhada, a arquitetura se materializa ao final do desenvolvimento de uma aplicação. Portanto, ainda que de forma evolutiva, a arquitetura de aplicações deve ser pensada de forma a alinhar a execução de um projeto com a estratégia de negócio. Do contrário, o desenvolvimento se torna um desajeitado exercício de remendos e escolhas equivocadas de tecnologias e padrões. Esta trilha busca explorar casos de arquitetura de aplicações com seus desafios e soluções em contextos de negócios diversos."
+  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/SmQrHlqDw7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   coordenadores:
    - 
     id: 2
@@ -43,6 +45,7 @@
 -
   nome: "Arquitetura de Dados"
   descricao: "Os benefícios aos negócios e as novas oportunidades trazidas pelo trabalho aplicado com dados são vastos. Grandes provedores de nuvem, inúmeros provedores menores e até a comunidade open-source, em busca de suprir essa demanda, trazem recursos e práticas inovadoras para compor soluções complexas de dados, desde a criação de pipelines de ETL até o treinamento e a publicação de modelos de machine learning. Desafios de arquitetura nessas soluções, cloud-agnostic ou não, discussões sobre componentes e como abordar essas aplicações de forma estratégica serão os principais tópicos de debate nessa trilha."
+  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8WTGTlDJlbE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   coordenadores:
    - 
     id: 4
@@ -64,6 +67,7 @@
 -
   nome: "Arquitetura de Infraestrutura"
   descricao: "A forma de lidar com infraestrutura evoluiu muito nos últimos anos, tornando a área mais desafiadora do que jamais foi. Os recursos que hoje temos para viabilizar gestão de infra com elasticidade e custo efetivo sem abrir mão da segurança não envolvem apenas conhecimento de redes, hardware e sistemas operacionais, mas também conceitos de DevOps, Nuvens públicas e híbridas, Containers, Infraestrutura como Código. Como arquitetar soluções de infra de forma moderna e adequada é o que iremos abordar nessa trilha, trazendo palestrantes renomados e debates atuais para a pauta."
+  video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/InMTp6fqXVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   coordenadores:
    - 
     id: 6
